@@ -8,3 +8,4 @@
  - 9월12일 git, git gui실습
  - 9월13일 console git, markdown문법, git실습
  - 9월19일 xcode, 클래스코드살펴보기
+ - 9월20일 클래스구조익히기, 프로퍼티/메서드 추가하기
