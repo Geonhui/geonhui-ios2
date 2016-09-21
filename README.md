@@ -15,6 +15,10 @@
 ###참조
 
 * [마크다운] - 마크다운 문법참조
-
+* [마크다운한글참조] - 명령어 모음
+* [Ios2기 커리큘럼] - 일정
 
    [마크다운]: <http://dillinger.io/>
+   [마크다운한글참조]: <https://www.evernote.com/shard/s3/sh/128acb97-d3c5-4eda-aa1b-c71ecd2f3a15/54a14ebd5d4ce7507bf78e5af640d0e9>
+   [Ios2기 커리큘럼]: <https://docs.google.com/spreadsheets/d/1XYvfdoR1tBto0jA2zoK8QDxZWvkTFsRNPcKYIBqhkUQ/edit#gid=0>
+   
