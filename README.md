@@ -1,19 +1,13 @@
 # geonhui-ios2
-## 어서 오세요 주인님
 
 ### 순서
-
- - EX (예제문제, 참조)
+ - STUDY CODE (수업 중 실습,  X-CODE)
+ - STUDY REPORT (수업 중 교육내용을 정리)
  - HOMEWORK (과제)
  - PROJECT (개인 및 그룹프로젝트)
- - QUIZ 
- - STUDY (수업 중 실습내용)
-
-> 폴더에는 각월별로 정리되어 있습니다.
-> 9월, 10월, 11월, 12월 순입니다.
+ - PRECTICE (수업 후 코드복습)
 
 ###참조
-
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
 * [Ios2기 커리큘럼] - 일정
@@ -28,4 +22,3 @@
    [맛집]: <https://drive.google.com/open?id=1rBqgIDPhz2_KDAAnH-KDVB2nNEU>
    [코딩 네이밍]: <http://redleaf.tistory.com/20>
    [형식지정자]: <http://alvinalexander.com/programming/printf-format-cheat-sheet>
-   
