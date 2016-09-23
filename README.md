@@ -1,11 +1,11 @@
 # geonhui-ios2
 
-### 순서
+### 폴더참조
  - STUDY CODE (수업 중 실습,  X-CODE)
  - STUDY REPORT (수업 중 교육내용을 정리)
  - HOMEWORK (과제)
  - PROJECT (개인 및 그룹프로젝트)
- - PRECTICE (수업 후 코드복습)
+ - PRACTICE (수업 후 코드복습)
 
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
