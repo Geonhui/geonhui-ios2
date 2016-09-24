@@ -30,6 +30,7 @@
 ### 기타
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
+* [GIT]
 
    [마크다운]: <https://stackedit.io/editor#>
    [운영체제]: <https://goo.gl/4UaIWu>
@@ -46,3 +47,4 @@
    [형식지정자]: <http://alvinalexander.com/programming/printf-format-cheat-sheet>
    [하버드 구조]: <https://goo.gl/oA9r6r>
    [폰노이만 구조]: <https://goo.gl/k80z38>
+   [GIT]: <https://www.codeshcool.com/paths/git>
