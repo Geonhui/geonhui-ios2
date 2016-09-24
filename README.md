@@ -38,7 +38,7 @@
    [퀵헬프]: <https://developer.apple.com/library/content/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html>
    [프로그래밍 패러다임]: <https://goo.gl/JyjX1H>
    [객체지향 프로그래밍]: <https://goo.gl/AtI3vN>
-   [객체지향 4대특징징]: <http://psh85a.tistory.com/entry/c%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98-4%EB%8C%80-%ED%8A%B9%EC%A7%95>
+   [객체지향 4대특징]: <http://psh85a.tistory.com/entry/c%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98-4%EB%8C%80-%ED%8A%B9%EC%A7%95>
    [커널]: <https://goo.gl/CG9zir>
    [자료구조]:<https//goo.gl/f807Vo>
    [데이터베이스]: <https//goo.gl/tjpqqq>
