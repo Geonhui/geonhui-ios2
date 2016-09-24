@@ -13,7 +13,7 @@
 		BB33EBF71D95000C00DF57D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB33EBF51D95000C00DF57D0 /* Main.storyboard */; };
 		BB33EBF91D95000C00DF57D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB33EBF81D95000C00DF57D0 /* Assets.xcassets */; };
 		BB33EBFC1D95000C00DF57D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB33EBFA1D95000C00DF57D0 /* LaunchScreen.storyboard */; };
-		BB33EC041D95006000DF57D0 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB33EC031D95006000DF57D0 /* sound.mp3 */; };
+		BB63DC491D959C0200B36252 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB63DC481D959C0200B36252 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		BB33EBF81D95000C00DF57D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB33EBFB1D95000C00DF57D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB33EBFD1D95000C00DF57D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB33EC031D95006000DF57D0 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../../../sound.mp3; sourceTree = "<group>"; };
+		BB63DC481D959C0200B36252 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../../sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		BB33EBEB1D95000C00DF57D0 /* MyFirstMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				BB33EC031D95006000DF57D0 /* sound.mp3 */,
+				BB63DC481D959C0200B36252 /* sound.mp3 */,
 				BB33EBEF1D95000C00DF57D0 /* AppDelegate.h */,
 				BB33EBF01D95000C00DF57D0 /* AppDelegate.m */,
 				BB33EBF21D95000C00DF57D0 /* ViewController.h */,
@@ -140,10 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB33EC041D95006000DF57D0 /* sound.mp3 in Resources */,
 				BB33EBFC1D95000C00DF57D0 /* LaunchScreen.storyboard in Resources */,
 				BB33EBF91D95000C00DF57D0 /* Assets.xcassets in Resources */,
 				BB33EBF71D95000C00DF57D0 /* Main.storyboard in Resources */,
+				BB63DC491D959C0200B36252 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +311,7 @@
 				BB33EC021D95000C00DF57D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
