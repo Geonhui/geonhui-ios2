@@ -8,6 +8,15 @@
 
 #import "Person.h"
 
+/*@interface Person ()
+// 프로퍼티
+@property NSString *name;
+@property NSInteger age;
+@property NSString *mobileNumber;
+@property NSString *city;
+@property BOOL isHansome;
+@end*/
+
 @implementation Person
 
 // 이름과 생김새 메서드
@@ -42,4 +51,14 @@
     return self;
     
 }
+
+- (id)eat {
+    NSLog(@"%@을 먹다", self.name);
+    return nil;
+}
+
+
+
+
+
 @end

@@ -32,5 +32,9 @@
 
 // 이름, 나이, 전화번호, 도시
 - (instancetype)initWithName:(NSString *)name age:(NSInteger)age mobileNumber:(NSString *)mobileNumber city:(NSString *)city;
-                            
+
+// 먹다
+- (id)eat;
+
+
 @end

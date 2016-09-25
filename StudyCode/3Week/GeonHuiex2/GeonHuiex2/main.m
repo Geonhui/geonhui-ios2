@@ -25,9 +25,9 @@ int main(int argc, const char * argv[]) {
 /* 오른쪽에서 왼쪽으로가는 대입연산자 =
    변수에 프로퍼티의 값을 넣어준다, 프로퍼티셋팅
    문자에는 ""를 쓰고 숫자는 ""를 쓰지않는다 */
-    me.name = @"geonhui";
+    me.name = @"건희";
     me.server = @"korea";
-    you.name = @"hayeonsoo";
+    you.name = @"하연수";
     you.server = @"korea";
     
 // 프로퍼티의 값을 가져온다
@@ -39,9 +39,13 @@ int main(int argc, const char * argv[]) {
 //  변수 구현메서드 구현문자
     [me drink:@"소주"
          with:you.name];
-    [me playbaseball:@"샌프란시스코자이언츠"];
+    [me playbaseball:you.name];
+    
+    
     [me playjocku:@"세계랭킹1위족구팀"
            winner:@"나랑내친구"];
+    
+    
     [me swimming:@"하와이"
              who:@"베이글미녀"
              how:@"행복"

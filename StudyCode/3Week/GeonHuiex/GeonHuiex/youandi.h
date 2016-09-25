@@ -19,6 +19,7 @@
 //인간의 클래스 중 사용중인 언어(국적어)
 @property id language;
 
+
 //잔다~
 - (id)sleep;
 //먹는다~
@@ -27,7 +28,6 @@
 - (id)look;
 //읽다~
 - (id)read;
-
 
 @end
 

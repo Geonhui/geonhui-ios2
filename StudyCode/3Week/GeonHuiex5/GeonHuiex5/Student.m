@@ -10,6 +10,7 @@
 @implementation Student
 
 - (instancetype)initWithName:(NSString *)name city:(NSString *)city school:(NSString *)school grade:(NSInteger)grade {
+    
     // 부모에서 물려받은것을 셀프로 자기가 받을필요는 없다.
     // 상속받은것은 수퍼로 받아온다.
     // 상속받지못한 것은 셀프로 지정한다.
@@ -21,6 +22,11 @@
     self.grade = grade;
     // nil이 아니라 self
     return self;
+}
+
+- (id)eat {
+    NSLog(@"%@을 먹다", self.name);
+    return nil;
 }
 
 @end
