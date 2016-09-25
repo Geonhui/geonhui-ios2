@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
 
     NSLog(@" 이름 : %@, 지역 : %@, 등급 : %@, 학년 : %ld", mini.name, mini.city, mini.school, mini.grade);
     
-    //[jack eat];
+    [jack eat];
     //[mini eat];
     
     return 0;

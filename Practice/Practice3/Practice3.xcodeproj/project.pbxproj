@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC1B1B11D98017C00967A1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1B01D98017C00967A1D /* main.m */; };
+		BBC1B1B91D98019700967A1D /* Hit.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1B81D98019700967A1D /* Hit.m */; };
+		BBC1B1BC1D98022800967A1D /* Charictor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1BB1D98022800967A1D /* Charictor.m */; };
+		BBC1B1BF1D9802D800967A1D /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1BE1D9802D800967A1D /* Map.m */; };
+		BBC1B1C21D98033800967A1D /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1C11D98033800967A1D /* Weapon.m */; };
+		BBC1B1C51D9803A100967A1D /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1C41D9803A100967A1D /* Monster.m */; };
+		BBC1B1C81D98047900967A1D /* Ahcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1C71D98047900967A1D /* Ahcher.m */; };
+		BBC1B1CB1D9804AF00967A1D /* SwordMan.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1CA1D9804AF00967A1D /* SwordMan.m */; };
+		BBC1B1CE1D98051700967A1D /* Hunt.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1CD1D98051700967A1D /* Hunt.m */; };
+		BBC1B1D11D98055E00967A1D /* Battle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B1D01D98055E00967A1D /* Battle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBC1B1AB1D98017C00967A1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BBC1B1AD1D98017C00967A1D /* Practice3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice3; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC1B1B01D98017C00967A1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBC1B1B71D98019700967A1D /* Hit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hit.h; sourceTree = "<group>"; };
+		BBC1B1B81D98019700967A1D /* Hit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hit.m; sourceTree = "<group>"; };
+		BBC1B1BA1D98022800967A1D /* Charictor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charictor.h; sourceTree = "<group>"; };
+		BBC1B1BB1D98022800967A1D /* Charictor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Charictor.m; sourceTree = "<group>"; };
+		BBC1B1BD1D9802D800967A1D /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		BBC1B1BE1D9802D800967A1D /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		BBC1B1C01D98033800967A1D /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		BBC1B1C11D98033800967A1D /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		BBC1B1C31D9803A100967A1D /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		BBC1B1C41D9803A100967A1D /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+		BBC1B1C61D98047900967A1D /* Ahcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ahcher.h; sourceTree = "<group>"; };
+		BBC1B1C71D98047900967A1D /* Ahcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ahcher.m; sourceTree = "<group>"; };
+		BBC1B1C91D9804AF00967A1D /* SwordMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwordMan.h; sourceTree = "<group>"; };
+		BBC1B1CA1D9804AF00967A1D /* SwordMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwordMan.m; sourceTree = "<group>"; };
+		BBC1B1CC1D98051700967A1D /* Hunt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hunt.h; sourceTree = "<group>"; };
+		BBC1B1CD1D98051700967A1D /* Hunt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hunt.m; sourceTree = "<group>"; };
+		BBC1B1CF1D98055E00967A1D /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = "<group>"; };
+		BBC1B1D01D98055E00967A1D /* Battle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Battle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC1B1AA1D98017C00967A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBC1B1A41D98017C00967A1D = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1AF1D98017C00967A1D /* Practice3 */,
+				BBC1B1AE1D98017C00967A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC1B1AE1D98017C00967A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1AD1D98017C00967A1D /* Practice3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC1B1AF1D98017C00967A1D /* Practice3 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1B01D98017C00967A1D /* main.m */,
+				BBC1B1B71D98019700967A1D /* Hit.h */,
+				BBC1B1B81D98019700967A1D /* Hit.m */,
+				BBC1B1D21D9805A400967A1D /* 캐릭터 */,
+				BBC1B1D31D9805C700967A1D /* 몬스터 */,
+				BBC1B1D41D9805DA00967A1D /* 맵 */,
+				BBC1B1D51D9805E500967A1D /* 장비 */,
+			);
+			path = Practice3;
+			sourceTree = "<group>";
+		};
+		BBC1B1D21D9805A400967A1D /* 캐릭터 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1C91D9804AF00967A1D /* SwordMan.h */,
+				BBC1B1CA1D9804AF00967A1D /* SwordMan.m */,
+				BBC1B1C61D98047900967A1D /* Ahcher.h */,
+				BBC1B1C71D98047900967A1D /* Ahcher.m */,
+				BBC1B1BA1D98022800967A1D /* Charictor.h */,
+				BBC1B1BB1D98022800967A1D /* Charictor.m */,
+			);
+			name = "캐릭터";
+			sourceTree = "<group>";
+		};
+		BBC1B1D31D9805C700967A1D /* 몬스터 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1C31D9803A100967A1D /* Monster.h */,
+				BBC1B1C41D9803A100967A1D /* Monster.m */,
+			);
+			name = "몬스터";
+			sourceTree = "<group>";
+		};
+		BBC1B1D41D9805DA00967A1D /* 맵 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1CC1D98051700967A1D /* Hunt.h */,
+				BBC1B1CF1D98055E00967A1D /* Battle.h */,
+				BBC1B1D01D98055E00967A1D /* Battle.m */,
+				BBC1B1CD1D98051700967A1D /* Hunt.m */,
+				BBC1B1BD1D9802D800967A1D /* Map.h */,
+				BBC1B1BE1D9802D800967A1D /* Map.m */,
+			);
+			name = "맵";
+			sourceTree = "<group>";
+		};
+		BBC1B1D51D9805E500967A1D /* 장비 */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B1C01D98033800967A1D /* Weapon.h */,
+				BBC1B1C11D98033800967A1D /* Weapon.m */,
+			);
+			name = "장비";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC1B1AC1D98017C00967A1D /* Practice3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC1B1B41D98017C00967A1D /* Build configuration list for PBXNativeTarget "Practice3" */;
+			buildPhases = (
+				BBC1B1A91D98017C00967A1D /* Sources */,
+				BBC1B1AA1D98017C00967A1D /* Frameworks */,
+				BBC1B1AB1D98017C00967A1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice3;
+			productName = Practice3;
+			productReference = BBC1B1AD1D98017C00967A1D /* Practice3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC1B1A51D98017C00967A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "geon hui kim";
+				TargetAttributes = {
+					BBC1B1AC1D98017C00967A1D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BBC1B1A81D98017C00967A1D /* Build configuration list for PBXProject "Practice3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBC1B1A41D98017C00967A1D;
+			productRefGroup = BBC1B1AE1D98017C00967A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC1B1AC1D98017C00967A1D /* Practice3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC1B1A91D98017C00967A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC1B1CB1D9804AF00967A1D /* SwordMan.m in Sources */,
+				BBC1B1C51D9803A100967A1D /* Monster.m in Sources */,
+				BBC1B1C81D98047900967A1D /* Ahcher.m in Sources */,
+				BBC1B1CE1D98051700967A1D /* Hunt.m in Sources */,
+				BBC1B1B11D98017C00967A1D /* main.m in Sources */,
+				BBC1B1B91D98019700967A1D /* Hit.m in Sources */,
+				BBC1B1C21D98033800967A1D /* Weapon.m in Sources */,
+				BBC1B1D11D98055E00967A1D /* Battle.m in Sources */,
+				BBC1B1BF1D9802D800967A1D /* Map.m in Sources */,
+				BBC1B1BC1D98022800967A1D /* Charictor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBC1B1B21D98017C00967A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BBC1B1B31D98017C00967A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBC1B1B51D98017C00967A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBC1B1B61D98017C00967A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC1B1A81D98017C00967A1D /* Build configuration list for PBXProject "Practice3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC1B1B21D98017C00967A1D /* Debug */,
+				BBC1B1B31D98017C00967A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC1B1B41D98017C00967A1D /* Build configuration list for PBXNativeTarget "Practice3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC1B1B51D98017C00967A1D /* Debug */,
+				BBC1B1B61D98017C00967A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC1B1A51D98017C00967A1D /* Project object */;
+}

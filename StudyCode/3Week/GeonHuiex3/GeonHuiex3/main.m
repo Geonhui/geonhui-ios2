@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
     tom.spec = @"menchiken";
     
     // 메서드 호출
-    // 다른 변수끼를 서로 메서드 연결
+    // 다른 변수끼리 서로 메서드 연결
     [jack punchTo:soser];
     [soser skillMe:soser];
     [big cry:@"나"];
@@ -48,43 +48,43 @@ int main(int argc, const char * argv[]) {
     // 형식지정자 //
     // 정수타입 - 부호가 있는 32bit 정수타입 > 10진수 (%d)
     // 정수타입 - 부호가 있는 64bit 정수타입 > 10진수 (%ld)
-    NSLog(@"height : %ld", jack.height);
+    //NSLog(@"height : %ld", jack.height);
     
     // 정수타입 - 부호가 없는 32bit 정수타입 > 10진수 (%u)
     // 정수타입 - 부호가 없는 64bit 정수타입 > 10진수 (%lu)
-    NSLog(@"height : %lu", jack.height);
+    //NSLog(@"height : %lu", jack.height);
     
     // 정수타입 (16진수)
-    NSLog(@"height : %lx", jack.height);
+    //NSLog(@"height : %lx", jack.height);
     
     // 정수타입 (8진수)
-    NSLog(@"height : %lo", jack.height);
+    //NSLog(@"height : %lo", jack.height);
     
     // 실수타입 - 32bit 실수타입 > 10진수 (%f)
     // 실수타입 - 64bit 실수타입 > 10진수 (%lf)
-    NSLog(@"float value : %lf", soser.eyesight);
+    //NSLog(@"float value : %lf", soser.eyesight);
     
     // 불리언 타입 %d YES,NO가 0,1로 표현되기때문에 32비트 10진수와 같다
-    NSLog(@"Boolean value ; %d", YES);
-    NSLog(@"Boolean value ; %d", NO);
+    //NSLog(@"Boolean value ; %d", YES);
+    //NSLog(@"Boolean value ; %d", NO);
 
     // 캐릭터 타입 %c
-    NSLog(@"character : %c %c %c", 'a','b','c');
+    //NSLog(@"character : %c %c %c", 'a','b','c');
     
     // %를 표현할때 %%
-    NSLog(@"몇 500%% 인가요?");
+    //NSLog(@"몇 500%% 인가요?");
     
     // 주소값을 확인할때 %p
-    NSLog(@"jack object : %@, mamory address: %p",jack,jack);
+    //NSLog(@"jack object : %@, mamory address: %p",jack,jack);
     
     // 줄바꿈 \n
-    NSLog(@"줄\n바꾸기");
+    //NSLog(@"줄\n바꾸기");
     
     // 탭 표현 \t
-    NSLog(@"사이에 \t을 넣어준다");
+    //NSLog(@"사이에 \t을 넣어준다");
     
     // 응용
-    NSLog(@"키는 %ld이고 \n몸무게는 %ld \n발사이즈%ld \n %d",jack.height,jack.kg,jack.footsize,jack.isdead);
+    //NSLog(@"키는 %ld이고 \n몸무게는 %ld \n발사이즈%ld \n %d",jack.height,jack.kg,jack.footsize,jack.isdead);
     
     // long : 32bit 부호가 있는 정수 타입
     // int : 64bit 부호가 있는 정수 타입

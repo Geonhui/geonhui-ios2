@@ -24,8 +24,8 @@
     return self;
 }
 
-- (id)eat {
-    NSLog(@"%@을 먹다", self.name);
+- (id)eat:(id)who {
+    NSLog(@"%@을 먹다");
     return nil;
 }
 

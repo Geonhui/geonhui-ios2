@@ -17,6 +17,5 @@
 
 //이름, 도시, 학교, 학년
 - (instancetype)initWithName:(NSString *)name city:(NSString *)city school:(NSString *)school grade:(NSInteger)grade;
-
-
+- (id)eat:(id)who;
 @end
