@@ -1,11 +1,34 @@
 # geonhui-ios2
 
-### 폴더참조
+### 폴더
  - STUDY CODE (수업 중 실습,  X-CODE)
  - STUDY REPORT (수업 중 교육내용을 정리)
  - HOMEWORK (과제)
  - PROJECT (개인 및 그룹프로젝트)
  - PRACTICE (수업 후 코드복습)
+
+### 일정
+#### 1 Week
+* 9월 5일 - OT, 컴퓨터, 프로그램,  프로그래밍의 개념, 컴퓨터의 역사, HW/SW, 컴퓨터의 구성 및 동작
+* 9월 6일 - 데이터의 표현방식, 컴퓨터의 구성 및 동작, 운영체제
+* 9월 7일 - 자료구조, 알고리즘, 데이터베이스
+* 9월 8일 - 네트워크
+* 9월 9일 - 프로그래밍 기초상식, SW공학개론, 프로그래머의 현주소
+#### 2 Week
+* 9월 12일 - Git, Git Gui 실습
+* 9월 13일 - Consol Git, MarkDown문법, Git실습
+#### 3 Week
+* 9월 19일 - X-code, 클래스코드 살펴보기
+* 9월 20일 - 클래스 구조익히기, 프로퍼티/메서드 추가하기
+* 9월 21일 - 객체화 하기, 프로퍼티 접근
+* 9월 22일 - 프로퍼티 사용, 상속
+* 9월 23일 - 객체 초기화
+#### 4 Week
+* 9월 26일 - 변수, 메소드(클래스, 인스턴스), 조건문
+* 9월 27일 - 포인터, value / reperence, 링크드 리스트
+* 9월 28일 - 배열, 딕셔너리, 복습
+* 9월 29일 - 구조익히기(ui&header, 문서보기), UIview가지고놀기, UILabel, UIImageView
+* 9월 30일 - 구조익히기(UI), 따라치기 자판기(비효율)
 
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
@@ -31,7 +54,6 @@
 ### 기타
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
-* [GIT]
 
    [마크다운]: <https://stackedit.io/editor#>
    [운영체제]: <https://goo.gl/4UaIWu>
@@ -50,4 +72,3 @@
    [형식지정자]: <http://alvinalexander.com/programming/printf-format-cheat-sheet>
    [하버드 구조]: <https://goo.gl/oA9r6r>
    [폰노이만 구조]: <https://goo.gl/k80z38>
-   [GIT]: <https://www.codeshcool.com/paths/git>
