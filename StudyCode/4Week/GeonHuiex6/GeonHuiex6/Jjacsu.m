@@ -13,7 +13,7 @@
 + (BOOL)isEvenNumber:(NSInteger)number
 {   //처음엔 0이니깐 노
     BOOL isEven = NO;
-    //2의 배수
+    //2로 나누었을때 나머지가 0이면 참
     if (number%2 == 0) {
         //짝수
         isEven = YES;
@@ -24,7 +24,7 @@
     return isEven;
 }
 
-//100보다 작고 90보다 크면 1, 90보다 작고 80보다 크면 2
+//100보다 작고 90보다 크면 = 1, 90보다 작고 80보다 크면 = 2
 + (NSInteger)matchingGrade:(CGFloat)averige
 {
     NSInteger gradeNum = 0;

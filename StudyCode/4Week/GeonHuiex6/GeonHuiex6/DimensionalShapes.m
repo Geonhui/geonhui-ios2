@@ -28,6 +28,7 @@
 {
     return length * length;
 }
+
 //정사각형 둘레 구하기
 - (NSInteger)squrePerimeter:(NSInteger)length
 {
@@ -41,6 +42,7 @@
     return leanth * wide;
     
 }
+
 //직사각형 둘레 구하기
 - (NSInteger)rectanglePerimeter:(NSInteger)leanth wide:(NSInteger)wide
 {
@@ -53,6 +55,7 @@
 {
     return (CGFloat)3.14 * ridius * ridius;
 }
+
 //원의 둘레 구하기
 - (CGFloat)circleCircumference:(NSInteger)ridius;
 {
@@ -100,10 +103,5 @@
 {
     return 1.0 / 3.0 * 3.14 * ridius * ridius * high;
 }
-
-
-
-
-
 
 @end

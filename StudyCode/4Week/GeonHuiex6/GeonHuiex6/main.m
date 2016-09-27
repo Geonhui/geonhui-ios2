@@ -21,7 +21,7 @@
 
 int main(int argc, const char * argv[]) {
     //--------------------------------------------------------------------------------------------------------------------
-    
+
     //객체 생성, 초기화
     ClassCalculator *cal = [[ClassCalculator alloc] init];
     DimensionalShapes *dimOne = [[DimensionalShapes alloc] init];
@@ -77,11 +77,11 @@ int main(int argc, const char * argv[]) {
     NSLog(@"%ld", [ToolBox kbTo:10]);
     //mb에서 kb
     NSLog(@"%ld", [ToolBox mbTo:100000]);
-    
+ 
     //--------------------------------------------------------------------------------------------------------------------
     
     //짝수일경우는 예스, 홀수일경우는 노
-    NSLog(@"%d", [Jjacsu isEvenNumber:12]);
+    NSLog(@"%d", [Jjacsu isEvenNumber:3]);
     //100~90은 1등급, 80~90은 2등급
     NSLog(@"%ld", [Jjacsu matchingGrade:89]);
     //1-전액장학금, 2-50%, 3-25%, 4-없음
