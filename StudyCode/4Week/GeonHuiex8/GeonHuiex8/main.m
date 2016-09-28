@@ -15,13 +15,28 @@ int main(int argc, const char * argv[]) {
     
     DlinkdList *doo = [[DlinkdList alloc] init];
     
+    // 마지막에 데이터의 추가를 호출
     [doo addLastValue:123];
     [doo addLastValue:324];
     [doo addLastValue:434];
     
+    // 첫번째에 데이터의 추가를 호출
+    [doo addFirstValue:120];
+    
+    // 제일 마지막 데이터를 삭제
+    //[doo removeLastNode:nowNode];
+    
+    // 데이터 전부를 출력
     [doo printAllNode];
     
-// Array 문법
+
+    
+    
+    
+    
+    
+    
+//    Array 문법
 //    NSInteger intList[5] = {1,2,3,4,5};
 //    NSLog(@"%ld", intList[3]);
 //    
