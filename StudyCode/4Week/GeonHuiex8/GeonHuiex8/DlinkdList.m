@@ -32,7 +32,7 @@
 - (void)addLastValue:(NSInteger)value
 {// 메서드 호출
  // 제일 마지막에 노드를 추가한다  헤더노드       새로운 값
-    [self addLastIndexNode:self.header newValue:value];
+    [self addLastIndexNode:self.header newValue:value];   //헤더부터 새로운 값을 추가한다.
 }
 // 제일 마지막에 노드추가      nowNode는 header 새로운 값을 넣어준다.
 - (void)addLastIndexNode:(Node *)nowNode newValue:(NSInteger)value
@@ -78,7 +78,7 @@
     [self printAllNode:self.header];    // 헤더부터 전부출력한다
 }
 
-- (void)printAllNode:(Node *)node       // node를 출력
+- (void)printAllNode:(Node *)node       // 출력할 node를 지정해준다
 {
     if (node.next != nil) {             // 다음node들이 nil값이 아닐때
         NSLog(@"%ld", node.value);      // node값을 출력한다.
@@ -90,17 +90,23 @@
 }
 
 //removeLast (제일 마지막의 데이터를 삭제한다.)
-- (void)removeLastNode:(Node *)nowNode
+-(void)removeLast
 {
-    if(nowNode.next == nil) {                // nowNode의 다음node가 nil일 경우
-           // nownode는 lastnode이다, 다음node nil 값을 가지고 있을 경우
+    [self removeLastNode:self.header];    // 마지막 데이터를 삭제
+}
+//
+-(void)removeLastNode:(Node *)node        // 삭제할 node를 지정해준다
+{
+    if(node.next == nil){                 // node의 다음node가 nil인 경우
         
-    }else  // nownode의 다음node가 nil이 아닐 경우
+        node.prev.next = nil;             // nil인 마지막node의 이전node와 다음node를 전부 nil값을 넣어준다
+        node.prev = nil;                  // nil인 마지막node의 이전node에 nil값을 넣어준다
+        
+    }else                                 // node의 다음node가 nil이 아닌 경우
     {
-        [self removeLastNode:nowNode.next];  // 계속 nownode의 다음node를 찾는다.
+        [self removeLastNode:node.next];  // 마지막 노드가 nil아닌경우
     }
 }
-
 //
 
 

@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
     [doo addFirstValue:120];
     
     // 제일 마지막 데이터를 삭제
-    //[doo removeLastNode:nowNode];
+    [doo removeLast];
     
     // 데이터 전부를 출력
     [doo printAllNode];
