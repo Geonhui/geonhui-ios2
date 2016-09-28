@@ -16,6 +16,7 @@ typedef struct character
 {
     CGFloat height;
     CGFloat weight;
+    
 }charactor;
 
 @interface Person : NSObject
@@ -23,7 +24,10 @@ typedef struct character
 @property NSString *name;
 @property NSInteger age;
 
-//구조체
+//구조체 프로퍼티
 @property charactor info;
+
+//구조체 메서드
+- (void)setHeight:(CGFloat)height weight:(CGFloat)weight;
 
 @end

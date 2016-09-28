@@ -9,20 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 int main(int argc, const char * argv[]) {
-
     
-    //Person *me = [[Person alloc] init];
-    //구조체를 불러오고
-    struct character to;
-    //값을 지정해주고
-    to.height = 30;
-    to.weight = 180;
-    //그 값을 cgfloat으로 받고 받은 변수로 표현
-    CGFloat myHeight = to.height;
-    CGFloat myWeight = to.weight;
-    NSLog(@"%lf, %lf", myHeight, myWeight);
-    
-    
+    //객체를 생성
+    Person *toto = [[Person alloc]init];
+    //변수에 프로퍼티 값을 지정
+    [toto setHeight:70.6 weight:90.1];
+    //출력을 실수형으로 표현, 변수의 구조체 프로퍼티의 값을 표현
+    NSLog(@"%lf, %lf", toto.info.height, toto.info.weight);
     
     return 0;
 }

@@ -23,17 +23,16 @@
 //구조체
 - (void)setHeight:(CGFloat)height weight:(CGFloat)weight
 {
-    //_info.height = height;
-    //_info.weight = weight;
-    
-    charactor tempInfo = {height,weight};
+    //height와 weight가 들어오면 tempinfo로 넘긴다.
+    charactor tempInfo = {height, weight};
+    //tempinfo의 값을 self.info로 넘긴다.
     self.info = tempInfo;
 }
 
-//구조체
+//구조체 반환
 - (charactor)personInfo
 {
-    return _info;
+    return self.info;
 }
 
 @end
