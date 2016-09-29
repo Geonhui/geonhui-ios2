@@ -28,27 +28,16 @@ int main(int argc, const char * argv[]) {
     
     // 데이터 전부를 출력
     [doo printAllNode];
-    
 
+    // Array 문법
+    NSInteger intList[5] = {1,2,3,4,5};
+    NSLog(@"%ld", intList[3]);
     
+    CGFloat floatList[10] = {3.1, 3.2, 3.3};
+    NSLog(@"%lf", floatList[2]);
     
-    
-    
-    
-    
-//    Array 문법
-//    NSInteger intList[5] = {1,2,3,4,5};
-//    NSLog(@"%ld", intList[3]);
-//    
-//    CGFloat floatList[10] = {3.1, 3.2, 3.3};
-//    NSLog(@"%lf", floatList[2]);
-//    
-//    char name[8] = "geonhui\0";
-//    NSLog(@"%s", name);
-    
-    
-    
-    
+    char name[8] = "geonhui\0";
+    NSLog(@"%s", name);
     
     return 0;
 }

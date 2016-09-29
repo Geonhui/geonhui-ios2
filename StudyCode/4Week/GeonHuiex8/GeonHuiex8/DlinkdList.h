@@ -30,7 +30,4 @@
 - (void)removeLastNode:(Node *)nowNode;
 - (void)removeLast;
 
-
-
-
 @end

@@ -9,8 +9,20 @@
 #import "DlinkdList.h"
 
 @implementation DlinkdList
+//  ...의 대한 설명
+- (void)test
+{
+    self.header.prev.next = [[Node alloc] init];
+    
+    Node *headerNode = [self header];       // self.header
+    Node *preNode = [headerNode prev];      // (self.header). prev
+    Node *nextNode = [preNode next];        // ((self.header). prev). next
+    nextNode = [[Node alloc] init];         // (((self.header). prev). next = 객체
+    
+    [[[self header]prev]setNext:[[Node alloc]init]];
+}
 
-//초기화
+//초기화메서드
 - (instancetype)init
 {   // 자기자신을 초기화
     self = [super init];
@@ -57,7 +69,7 @@
 - (void)addFirstValue:(NSInteger)newValue
 {
     Node *newNode = [[Node alloc] init];    // newNode안에 node를 생성
-    newNode.value = newNode;                // newNode값에 newNode를 넣는다.
+    newNode.value = newValue;               // newNode값에 newValue값을 넣는다.
     
     if (self.header.next == nil) {          // header의 nextNode가 nil일 경우
         self.header.next = newNode;         // header의 nextNode가 newNode가 된다.
@@ -94,7 +106,7 @@
 {
     [self removeLastNode:self.header];    // 마지막 데이터를 삭제
 }
-//
+//데이터를 삭제
 -(void)removeLastNode:(Node *)node        // 삭제할 node를 지정해준다
 {
     if(node.next == nil){                 // node의 다음node가 nil인 경우
@@ -107,31 +119,5 @@
         [self removeLastNode:node.next];  // 마지막 노드가 nil아닌경우
     }
 }
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @end

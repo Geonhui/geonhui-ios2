@@ -12,7 +12,7 @@
 
 @property NSInteger value;
 
-//다른 노드로 이동하기 위해서는 노드가 가지고 있는 포인터를 이용한다.
+// 다른 노드로 이동하기 위해서는 노드가 가지고 있는 포인터를 이용한다.
 @property Node *next; //포인터 변수
 @property Node *prev; //포인터 변수
 
