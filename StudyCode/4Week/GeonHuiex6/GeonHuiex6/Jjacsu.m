@@ -106,7 +106,7 @@
 //4이고 400이면 참
 + (void)checkLeapYear:(NSInteger)Year
 {
-    NSString * yunYear = @"윤년";
+    NSString *yunYear = @"윤년";
     if ((Year %4 == 0 && Year %100 != 0) || Year %400 == 0) {
         //4년마다, 400년으로 떨어지는 윤년
         NSLog(@"%@입니다.", yunYear);

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB506D2B1D9E5A4C00D85CB3 /* 람보르기니.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB506D271D9E5A4C00D85CB3 /* 람보르기니.jpg */; };
+		BB506D2C1D9E5A4C00D85CB3 /* 오토바이.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB506D281D9E5A4C00D85CB3 /* 오토바이.jpg */; };
+		BB506D2D1D9E5A4C00D85CB3 /* 포드.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB506D291D9E5A4C00D85CB3 /* 포드.jpg */; };
+		BB506D2E1D9E5A4C00D85CB3 /* 포르쉐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB506D2A1D9E5A4C00D85CB3 /* 포르쉐.jpg */; };
 		BB8D79861D9CF063004A49FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8D79851D9CF063004A49FF /* main.m */; };
 		BB8D79891D9CF063004A49FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8D79881D9CF063004A49FF /* AppDelegate.m */; };
 		BB8D798C1D9CF063004A49FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8D798B1D9CF063004A49FF /* ViewController.m */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB506D271D9E5A4C00D85CB3 /* 람보르기니.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "람보르기니.jpg"; sourceTree = "<group>"; };
+		BB506D281D9E5A4C00D85CB3 /* 오토바이.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "오토바이.jpg"; sourceTree = "<group>"; };
+		BB506D291D9E5A4C00D85CB3 /* 포드.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "포드.jpg"; sourceTree = "<group>"; };
+		BB506D2A1D9E5A4C00D85CB3 /* 포르쉐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "포르쉐.jpg"; sourceTree = "<group>"; };
 		BB8D79811D9CF063004A49FF /* GeonHuiex9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeonHuiex9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8D79851D9CF063004A49FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB8D79871D9CF063004A49FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +50,10 @@
 		BB8D79781D9CF063004A49FF = {
 			isa = PBXGroup;
 			children = (
+				BB506D271D9E5A4C00D85CB3 /* 람보르기니.jpg */,
+				BB506D281D9E5A4C00D85CB3 /* 오토바이.jpg */,
+				BB506D291D9E5A4C00D85CB3 /* 포드.jpg */,
+				BB506D2A1D9E5A4C00D85CB3 /* 포르쉐.jpg */,
 				BB8D79831D9CF063004A49FF /* GeonHuiex9 */,
 				BB8D79821D9CF063004A49FF /* Products */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB506D2B1D9E5A4C00D85CB3 /* 람보르기니.jpg in Resources */,
+				BB506D2C1D9E5A4C00D85CB3 /* 오토바이.jpg in Resources */,
+				BB506D2D1D9E5A4C00D85CB3 /* 포드.jpg in Resources */,
+				BB506D2E1D9E5A4C00D85CB3 /* 포르쉐.jpg in Resources */,
 				BB8D79941D9CF063004A49FF /* LaunchScreen.storyboard in Resources */,
 				BB8D79911D9CF063004A49FF /* Assets.xcassets in Resources */,
 				BB8D798F1D9CF063004A49FF /* Main.storyboard in Resources */,
@@ -307,6 +323,7 @@
 				BB8D799A1D9CF063004A49FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
