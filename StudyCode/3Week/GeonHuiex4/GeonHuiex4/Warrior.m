@@ -17,8 +17,8 @@
     return nil;
 }
 // 점프를 문자열타입(존나멀리)의 어딘가에 점프했다.
-- (id)jumpTo:(NSString *)location {
-    NSLog(@"%@가 %@ 점프했다.", self.name, location);
+- (id)jumpTo:(GameCharactor *)location {
+    NSLog(@"%@가 %@ 점프했다.", self.name, location.name);
     return nil;
 }
 

@@ -37,20 +37,10 @@ int main(int argc, const char * argv[]) {
     
 //  메서드 호출 = 메세지 보냄
 //  변수 구현메서드 구현문자
-    [me drink:@"소주"
-         with:you.name];
+    [me drink:@"소주" with:you.name];
     [me playbaseball:you.name];
-    
-    
-    [me playjocku:@"세계랭킹1위족구팀"
-           winner:@"나랑내친구"];
-    
-    
-    [me swimming:@"하와이"
-             who:@"베이글미녀"
-             how:@"행복"
-         howmany:@"평생"
-            need:@"ㅅㅂ 돈"];
+    [me playjocku:@"세계랭킹1위족구팀" winner:@"나랑내친구"];
+    [me swimming:@"하와이" who:@"베이글미녀" how:@"행복" howmany:@"평생" need:@"ㅅㅂ 돈"];
     
 //--------------------------------------------------------------------------------------------------
 // 클래스-워리어, 변수-바바,팔라,드루이드

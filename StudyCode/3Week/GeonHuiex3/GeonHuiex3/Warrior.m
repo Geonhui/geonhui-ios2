@@ -30,4 +30,12 @@
     return nil;
 }
 
+-(id)petTo:(id)who whoName:(Dog*)name
+{
+    NSLog(@"%lf를 %@입양했다.", self.power, name);
+    return nil;
+}
+
+
+
 @end

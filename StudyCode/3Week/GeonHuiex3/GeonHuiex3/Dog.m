@@ -10,7 +10,7 @@
 
 @implementation Dog
 
-- (id)cry:who; {
+- (id)cry:(id)who; {
     NSLog(@"%@에게 밥달라고 밥줘밥줘하며 운다", who);
     return nil;
 }

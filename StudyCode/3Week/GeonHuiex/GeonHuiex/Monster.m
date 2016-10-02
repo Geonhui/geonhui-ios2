@@ -10,4 +10,12 @@
 
 @implementation Monster
 
+- (id)attack
+{
+    NSLog(@"공격을한다.");
+    return nil;
+}
+
+
+
 @end

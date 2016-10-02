@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Monster.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+
+    Monster *mon = [[Monster alloc]init];
+    [mon attack];
+    
+    
+    
+    
+    
     return 0;
 }

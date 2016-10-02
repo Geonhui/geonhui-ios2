@@ -21,7 +21,7 @@
 }
 
 - (id)teleportTo:(GameCharactor *)location {
-    NSLog(@"로즈가 %@를 들고 제이슨에게 텔레포트 했다.", self.weapon, location.name);
+    NSLog(@"로즈가 %@를 들고 %@에게 텔레포트 했다.", self.weapon, location.name);
     return nil;
 }
 

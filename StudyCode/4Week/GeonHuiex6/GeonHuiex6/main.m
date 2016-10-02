@@ -30,8 +30,8 @@ int main(int argc, const char * argv[]) {
     [cal addScore:99];
     [cal addScore:60];
     //평균
-    CGFloat average  = [cal average];
-    NSLog(@"%lf가 평균입니다.", average);
+    //CGFloat average  = [cal average];
+    //NSLog(@"%lf가 평균입니다.", [cal average]);
     
     //--------------------------------------------------------------------------------------------------------------------
     

@@ -30,7 +30,7 @@ int main(int argc, const char * argv[]) {
     soser.isdie = YES;
     
     Dog *big = [[Dog alloc] init];
-    big.name = @"big";
+    big.name = @"웰시코기";
     big.color = @"brown";
     big.spec = @"wellsicogi";
     
@@ -44,6 +44,7 @@ int main(int argc, const char * argv[]) {
     [jack punchTo:soser];
     [soser skillMe:soser];
     [big cry:@"나"];
+    [jack petTo:jack whoName:big.name];
 //-------------------------------------------------------------------------------------------------
     // 형식지정자 //
     // 정수타입 - 부호가 있는 32bit 정수타입 > 10진수 (%d)

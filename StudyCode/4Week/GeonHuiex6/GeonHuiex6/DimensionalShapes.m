@@ -101,7 +101,7 @@
 //원뿔 부피 구하기
 - (CGFloat)coneVolume:(NSInteger)ridius high:(NSInteger)high
 {
-    return 1.0 / 3.0 * 3.14 * ridius * ridius * high;
+    return (CGFloat)1.0 / (CGFloat)3.0 * (CGFloat)3.14 * ridius * ridius * high;
 }
 
 @end

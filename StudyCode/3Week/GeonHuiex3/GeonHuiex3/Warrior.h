@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 // 연결하고자하는 클래스
 @class Wisserd;
+@class Dog;
 
 @interface Warrior : NSObject
 
@@ -23,5 +24,6 @@
 - (id)punchTo:(Wisserd *)who;
 //- (id)kickTo:(Wisserd *)who;
 //- (id)earth:(NSString *)where;
+-(id)petTo:(id)who whoName:(id)name;
 
 @end

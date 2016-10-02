@@ -13,7 +13,7 @@
 @interface Warrior : GameCharactor
 
 // 워리어 클래스 자체가 가지는 메서드
-- (id)jumpTo:(NSString *)location;
+- (id)jumpTo:(GameCharactor *)location;
 
 // 워리어가 가지는 메서드를 게임캐릭터에 상속된 어느 캐릭터의 값을 불러오겠다.
 - (id)smashTo:(GameCharactor *)someone;

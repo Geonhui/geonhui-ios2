@@ -102,100 +102,114 @@
     
     //UI를 이용해 뷰만들어보기
     //view
-//    UIView *newView = [[UIView alloc] initWithFrame:CGRectMake(15, 15, self.view.frame.size.width -30, 300)];
-//    newView.backgroundColor = [UIColor greenColor];
-//    newView.alpha = 1;
-//    [self.view addSubview:newView];
+    UIView *newView = [[UIView alloc] initWithFrame:CGRectMake(15, 15, self.view.frame.size.width -30,
+                                                                       self.view.frame.size.height /2 + 100)];
+    newView.backgroundColor = [UIColor whiteColor];
+    newView.alpha = 1;
+    [self.view addSubview:newView];
     
     //box1
     //좌측상단 박스에 뷰, 이미지, 라벨넣기
     //뷰
-//    UIView *box1 = [[UIView alloc]initWithFrame:CGRectMake(10, 10, newView.frame.size.width /2 - 20,
-//                                                                   130)];
-//    box1.backgroundColor = [UIColor blackColor];
-//    box1.alpha = 1;
-//    [newView addSubview:box1];
-//    //이미지뷰
-//    UIImageView *image1 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box1.frame.size.width, 100)];
-//    image1.image = [UIImage imageNamed:@"람보르기니.jpg"];
-//    [image1 setContentMode:UIViewContentModeScaleToFill];
-//    [box1 addSubview:image1];
-//    //라벨
-//    UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 30)];
-//    label1.text = @"1000클릭";
-//    label1.textColor = [UIColor redColor];
-//    label1.textAlignment = NSTextAlignmentCenter;
-//    [box1 addSubview:label1];
+    UIView *box1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, newView.frame.size.width /2 - 5,
+                                                                 newView.frame.size.height /2 - 5)];
+    box1.backgroundColor = [UIColor blackColor];
+    box1.alpha = 1;
+    [newView addSubview:box1];
+    //이미지뷰
+    UIImageView *image1 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box1.frame.size.width,
+                                                                             box1.frame.size.height - 30)];
+    image1.image = [UIImage imageNamed:@"람보르기니.jpg"];
+    [image1 setContentMode:UIViewContentModeScaleToFill];
+    [box1 addSubview:image1];
+    //라벨
+    UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(0,box1.frame.size.height - 30,
+                                                                 box1.frame.size.width, 30)];
+    label1.text = @"1000클릭";
+    label1.textColor = [UIColor redColor];
+    label1.textAlignment = NSTextAlignmentCenter;
+    [box1 addSubview:label1];
     
     //box2
     //우측상단 박스에 뷰, 이미지, 라벨넣기
-//    UIView *box2 = [[UIView alloc]initWithFrame:CGRectMake(newView.frame.size.width /2 + 10, 10,
-//                                                           newView.frame.size.width /2 - 20,
-//                                                           130)];
-//    box2.backgroundColor = [UIColor blackColor];
-//    box2.alpha = 1;
-//    [newView addSubview:box2];
-//    UIImageView *image2 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box2.frame.size.width, 100)];
-//    image2.image = [UIImage imageNamed:@"오토바이.jpg"];
-//    [image2 setContentMode:UIViewContentModeScaleToFill];
-//    [box2 addSubview:image2];
-//    UILabel *label2 = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 30)];
-//    label2.text = @"무한클릭";
-//    label2.textColor = [UIColor redColor];
-//    label2.textAlignment = NSTextAlignmentCenter;
-//    [box2 addSubview:label2];
+    UIView *box2 = [[UIView alloc]initWithFrame:CGRectMake(newView.frame.size.width /2 + 2.5, 0,
+                                                           newView.frame.size.width /2 - 2.5 ,
+                                                           newView.frame.size.height /2 - 5)];
+    box2.backgroundColor = [UIColor blackColor];
+    box2.alpha = 1;
+    [newView addSubview:box2];
+    UIImageView *image2 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box2.frame.size.width,
+                                                                             box2.frame.size.height - 30)];
+    image2.image = [UIImage imageNamed:@"오토바이.jpg"];
+    [image2 setContentMode:UIViewContentModeScaleToFill];
+    [box2 addSubview:image2];
+    UILabel *label2 = [[UILabel alloc]initWithFrame:CGRectMake(0, box2.frame.size.height - 30,
+                                                                  box2.frame.size.width, 30)];
+    label2.text = @"무한클릭";
+    label2.textColor = [UIColor redColor];
+    label2.textAlignment = NSTextAlignmentCenter;
+    [box2 addSubview:label2];
     
     //box3
     //좌측하단 박스에 뷰, 이미지, 라벨넣기
-//    UIView *box3 = [[UIView alloc]initWithFrame:CGRectMake(10, 160, newView.frame.size.width /2 - 20,
-//                                                           130)];
-//    box3.backgroundColor = [UIColor blackColor];
-//    box3.alpha = 1;
-//    [newView addSubview:box3];
-//    UIImageView *image3 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box3.frame.size.width, 100)];
-//    image3.image = [UIImage imageNamed:@"포드.jpg"];
-//    [image3 setContentMode:UIViewContentModeScaleToFill];
-//    [box3 addSubview:image3];
-//    UILabel *label3 = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 30)];
-//    label3.text = @"8000클릭";
-//    label3.textColor = [UIColor redColor];
-//    label3.textAlignment = NSTextAlignmentCenter;
-//    [box3 addSubview:label3];
+    UIView *box3 = [[UIView alloc]initWithFrame:CGRectMake(0, newView.frame.size.height /2 + 2.5,
+                                                              newView.frame.size.width /2 - 5 ,
+                                                              newView.frame.size.height /2 - 2.5)];
+    box3.backgroundColor = [UIColor blackColor];
+    box3.alpha = 1;
+    [newView addSubview:box3];
+    UIImageView *image3 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box3.frame.size.width,
+                                                                             box3.frame.size.height -30)];
+    image3.image = [UIImage imageNamed:@"포드.jpg"];
+    [image3 setContentMode:UIViewContentModeScaleToFill];
+    [box3 addSubview:image3];
+    UILabel *label3 = [[UILabel alloc]initWithFrame:CGRectMake(0, box3.frame.size.height - 30,
+                                                                  box3.frame.size.width, 30)];
+    label3.text = @"8000클릭";
+    label3.textColor = [UIColor redColor];
+    label3.textAlignment = NSTextAlignmentCenter;
+    [box3 addSubview:label3];
     
     //box4
     //우측하단 박스에 뷰, 이미지, 라벨넣기
-//    UIView *box4 = [[UIView alloc]initWithFrame:CGRectMake(newView.frame.size.width /2 +10, 160,
-//                                                           newView.frame.size.width /2 - 20,
-//                                                           130)];
-//    box4.backgroundColor = [UIColor blackColor];
-//    box4.alpha = 1;
-//    [newView addSubview:box4];
-//    UIImageView *image4 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box4.frame.size.width, 100)];
-//    image4.image = [UIImage imageNamed:@"포르쉐.jpg"];
-//    [image4 setContentMode:UIViewContentModeScaleToFill];
-//    [box4 addSubview:image4];
-//    UILabel *label4 = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 30)];
-//    label4.text = @"5000클릭";
-//    label4.textColor = [UIColor redColor];
-//    label4.textAlignment = NSTextAlignmentCenter;
-//    [box4 addSubview:label4];
+    UIView *box4 = [[UIView alloc]initWithFrame:CGRectMake(newView.frame.size.width /2 + 2.5,
+                                                           newView.frame.size.height /2 + 2.5,
+                                                           newView.frame.size.width /2 - 2.5,
+                                                           newView.frame.size.height /2 - 2.5)];
+    box4.backgroundColor = [UIColor blackColor];
+    box4.alpha = 1;
+    [newView addSubview:box4];
+    UIImageView *image4 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box4.frame.size.width,
+                                                                             box4.frame.size.height - 30)];
+    image4.image = [UIImage imageNamed:@"포르쉐.jpg"];
+    [image4 setContentMode:UIViewContentModeScaleToFill];
+    [box4 addSubview:image4];
+    UILabel *label4 = [[UILabel alloc]initWithFrame:CGRectMake(0, box4.frame.size.height - 30,
+                                                                  box4.frame.size.width, 30)];
+    label4.text = @"5000클릭";
+    label4.textColor = [UIColor redColor];
+    label4.textAlignment = NSTextAlignmentCenter;
+    [box4 addSubview:label4];
     
     //box5
-//    UIView *box5 = [[UIView alloc]initWithFrame:CGRectMake(15, 340, self.view.frame.size.width -30, 100)];
-//    box5.backgroundColor = [UIColor blackColor];
-//    box5.alpha = 1;
-//    [self.view addSubview:box5];
-//    UILabel *label5 = [[UILabel alloc]initWithFrame:CGRectMake(box5.frame.size.width /2 , 0, 100, 100)];
-//    label5.text = @"횟수 : 0회";
-//    label5.textColor = [UIColor whiteColor];
-//    label5.textAlignment = NSTextAlignmentRight;
-//    [box5 addSubview:label5];
+    UIView *box5 = [[UIView alloc]initWithFrame:CGRectMake(15, newView.frame.size.height + 30,
+                                                               self.view.frame.size.width - 30, 70)];
+    box5.backgroundColor = [UIColor blackColor];
+    box5.alpha = 1;
+    [self.view addSubview:box5];
+    UILabel *label5 = [[UILabel alloc]initWithFrame:CGRectMake(0, 0,
+                                                               box5.frame.size.width, 70)];
+    label5.text = @"횟수 :  0회";
+    label5.textColor = [UIColor whiteColor];
+    label5.textAlignment = NSTextAlignmentRight;
+    [box5 addSubview:label5];
     
     //box6
-//    UIView *box6 = [[UIView alloc]initWithFrame:CGRectMake(15, 460, self.view.frame.size.width -30, 100)];
-//    box6.backgroundColor = [UIColor blackColor];
-//    box6.alpha = 1;
-//    [self.view addSubview:box6];
+    UIView *box6 = [[UIView alloc]initWithFrame:CGRectMake(15, newView.frame.size.height + 110,
+                                                               self.view.frame.size.width -30, 60)];
+    box6.backgroundColor = [UIColor blackColor];
+    box6.alpha = 1;
+    [self.view addSubview:box6];
     
 }
 

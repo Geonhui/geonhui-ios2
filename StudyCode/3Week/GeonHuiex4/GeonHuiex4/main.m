@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
     
 //   메서드 호출
     [rose windstormTo:jason];
-    [jason jumpTo:@"존나멀리"];
+    [jason jumpTo:rose];
     [rose PhysicalPowerAttackTo:jason];
     [rose teleportTo:jason];
 
