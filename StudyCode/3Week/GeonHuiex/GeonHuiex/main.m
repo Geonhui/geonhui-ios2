@@ -8,13 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "Monster.h"
-
+#import "youandi.h"
 int main(int argc, const char * argv[]) {
 
     Monster *mon = [[Monster alloc]init];
     [mon attack];
+    [mon defense];
+    [mon support];
+    [mon multiple];
     
-    
+    youandi *you = [[youandi alloc]init];
+    [you sleep];
+    [you eat];
+    [you look];
+    [you read];
     
     
     

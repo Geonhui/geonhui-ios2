@@ -16,6 +16,23 @@
     return nil;
 }
 
+- (id)defense
+{
+    NSLog(@"방어를한다");
+    return nil;
+}
+
+- (id)support
+{
+    NSLog(@"서포트한다.");
+    return nil;
+}
+
+- (id)multiple
+{
+    NSLog(@"멀티플레이어이다.");
+    return nil;
+}
 
 
 @end
