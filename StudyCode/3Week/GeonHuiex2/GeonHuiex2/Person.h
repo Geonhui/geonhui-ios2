@@ -16,6 +16,7 @@
 // 소문자 작성
 @property id name;
 @property id server;
+@property id sex;
 //-------------------------------------------------------------------------------------------------
 // 메서드 지정
 // 소문자 작성
@@ -53,5 +54,6 @@
  */
 - (id)swimming:(id)where who:(id)who how:(id)how howmany:(id)howmany need:(id)need;
 //-------------------------------------------------------------------------------------------------
-
+- (id)dance:(id)where when:(id)when becuase:(id)becuase who:(id)who;
+- (id)love:(id)who howmany:(id)howmany;
 @end

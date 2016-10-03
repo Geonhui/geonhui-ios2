@@ -20,8 +20,8 @@
     return nil;
 }
 
-- (id)teleportTo:(GameCharactor *)location {
-    NSLog(@"로즈가 %@를 들고 %@에게 텔레포트 했다.", self.weapon, location.name);
+- (id)teleportTo:(GameCharactor *)location weapon:(id)weapon {
+    NSLog(@"로즈가 %@를 들고 %@에게 텔레포트 했다. %@를 뺏었다 ㅎㅎ", self.weapon, location.name, weapon);
     return nil;
 }
 

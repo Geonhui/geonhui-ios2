@@ -15,7 +15,7 @@
     // 상속받은것은 수퍼로 받아온다.
     // 상속받지못한 것은 셀프로 지정한다.
     self = [super initWithName:name
-                      city:city];
+                          city:city];
     // 학생클래스 자체에 있는 프로퍼티
     // 최상위 클래스에는 없는 프로퍼티
     self.school = school;
@@ -25,7 +25,7 @@
 }
 
 - (id)eat:(id)who {
-    NSLog(@"%@을 먹다");
+    NSLog(@"%@을 먹다", who);
     return nil;
 }
 

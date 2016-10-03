@@ -37,5 +37,13 @@
 }
 
 
+- (id)kickTo:(Wisserd *)who
+{
+    
+}
+
+- (id)earth:(NSString *)where
+
+
 
 @end

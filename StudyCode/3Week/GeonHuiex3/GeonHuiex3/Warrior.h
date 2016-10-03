@@ -21,9 +21,9 @@
 @property BOOL isdead;
 
 //               연결할려는 클래스
-- (id)punchTo:(Wisserd *)who;
-//- (id)kickTo:(Wisserd *)who;
-//- (id)earth:(NSString *)where;
--(id)petTo:(id)who whoName:(id)name;
+- (id)punchTo:(Wisserd *)who;          //위저드와 펀치로 싸운다.
+- (id)kickTo:(Wisserd *)who;           //위처드와 킥으로 싸운다.
+- (id)earth:(NSString *)where;         //어스공격을 어딘가에 쓴다.
+-(id)petTo:(id)who whoName:(id)name;   //펫을 키운다 누가 그리고 그 이름은?
 
 @end

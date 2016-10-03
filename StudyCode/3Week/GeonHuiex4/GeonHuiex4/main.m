@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
     [rose windstormTo:jason];
     [jason jumpTo:rose];
     [rose PhysicalPowerAttackTo:jason];
-    [rose teleportTo:jason];
+    [rose teleportTo:jason weapon:jason.weapon];
 
     return 0;
 }

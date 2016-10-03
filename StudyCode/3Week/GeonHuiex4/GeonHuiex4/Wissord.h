@@ -15,7 +15,7 @@
 
 // 위저드 클래스 자체가 가지는 메서드
 - (id)magicalPowerAttackTo:(GameCharactor *)someone;
-- (id)teleportTo:(GameCharactor *)location;
+- (id)teleportTo:(GameCharactor *)location weapon:(id)weapon;
 - (id)windstormTo:(GameCharactor *)someone;
 
 

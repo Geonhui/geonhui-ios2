@@ -11,7 +11,6 @@
 		BBC6DAD11D8FB961009A3784 /* youandi.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DAD01D8FB961009A3784 /* youandi.m */; };
 		BBC6DAD41D8FC1F8009A3784 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DAD31D8FC1F8009A3784 /* Monster.m */; };
 		BBC6DADA1D8FCB1F009A3784 /* Macbook.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DAD91D8FCB1F009A3784 /* Macbook.m */; };
-		BBC6DADD1D8FCE52009A3784 /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DADC1D8FCE52009A3784 /* Chicken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +34,6 @@
 		BBC6DAD31D8FC1F8009A3784 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
 		BBC6DAD81D8FCB1F009A3784 /* Macbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macbook.h; sourceTree = "<group>"; };
 		BBC6DAD91D8FCB1F009A3784 /* Macbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macbook.m; sourceTree = "<group>"; };
-		BBC6DADB1D8FCE52009A3784 /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
-		BBC6DADC1D8FCE52009A3784 /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +73,6 @@
 				BBC6DAD01D8FB961009A3784 /* youandi.m */,
 				BBC6DAD81D8FCB1F009A3784 /* Macbook.h */,
 				BBC6DAD91D8FCB1F009A3784 /* Macbook.m */,
-				BBC6DADB1D8FCE52009A3784 /* Chicken.h */,
-				BBC6DADC1D8FCE52009A3784 /* Chicken.m */,
 			);
 			path = GeonHuiex;
 			sourceTree = "<group>";
@@ -140,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC6DAD41D8FC1F8009A3784 /* Monster.m in Sources */,
-				BBC6DADD1D8FCE52009A3784 /* Chicken.m in Sources */,
 				BBC6DAC91D8FB80B009A3784 /* main.m in Sources */,
 				BBC6DADA1D8FCB1F009A3784 /* Macbook.m in Sources */,
 				BBC6DAD11D8FB961009A3784 /* youandi.m in Sources */,

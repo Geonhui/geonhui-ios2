@@ -14,7 +14,7 @@
 {   //처음엔 0이니깐 노
     BOOL isEven = NO;
     //2로 나누었을때 나머지가 0이면 참
-    if (number%2 == 0) {
+    if (number %2 == 0) {
         //짝수
         isEven = YES;
     }else

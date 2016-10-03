@@ -14,6 +14,7 @@
 @property NSInteger totalScor;  // 총점
 @property NSInteger subjectCount; //과목카운트
 
+
 - (void)addScore:(NSInteger)score; //과목점수 추가
 - (CGFloat)average; //평균
 

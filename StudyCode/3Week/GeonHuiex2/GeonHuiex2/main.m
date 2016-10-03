@@ -27,8 +27,10 @@ int main(int argc, const char * argv[]) {
    문자에는 ""를 쓰고 숫자는 ""를 쓰지않는다 */
     me.name = @"건희";
     me.server = @"korea";
+    me.sex = @"상남자";
     you.name = @"하연수";
     you.server = @"korea";
+    you.sex = @"웃는 모습이 이쁜 여자";
     
 // 프로퍼티의 값을 가져온다
     NSLog(@"My name is %@", me.name);
@@ -41,6 +43,8 @@ int main(int argc, const char * argv[]) {
     [me playbaseball:you.name];
     [me playjocku:@"세계랭킹1위족구팀" winner:@"나랑내친구"];
     [me swimming:@"하와이" who:@"베이글미녀" how:@"행복" howmany:@"평생" need:@"ㅅㅂ 돈"];
+    [me dance:@"나이트" when:@"어제" becuase:@"성훈이총각파티" who:me.name];
+    [me love:you.name howmany:@"모든걸 줘도 모자랄"];
     
 //--------------------------------------------------------------------------------------------------
 // 클래스-워리어, 변수-바바,팔라,드루이드
@@ -49,15 +53,15 @@ int main(int argc, const char * argv[]) {
     baba.weapon = @"grandfathergum";
     NSLog(@"my weapon is %@", baba.weapon);
     NSLog(@"baba health: %@, weapon:%@", baba.health, baba.weapon);
-    [baba pvp:@"soser"];
-    
+    [baba pvp:me.name];
+
     Warrior *pala = [[Warrior alloc] init];
     pala.health = @5000;
     pala.weapon = @"hamer";
     NSLog(@"my health is %@", pala.health);
     NSLog(@"pala health: %@, weapon:%@", pala.health, pala.weapon);
     [pala hunt];
-    
+    [baba pvp:pala.weapon];
     Warrior *druid = [[Warrior alloc] init];
 //-------------------------------------------------------------------------------------------------
 // 클래스-위저드, 변수-소서,네크로

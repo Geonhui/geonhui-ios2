@@ -17,5 +17,7 @@ int main(int argc, const char * argv[]) {
     //출력을 실수형으로 표현, 변수의 구조체 프로퍼티의 값을 표현
     NSLog(@"%lf, %lf", toto.info.height, toto.info.weight);
     
+    [toto setEyesight:44.2 footsize:250.5];
+    NSLog(@"%lf, %lf", toto.info2.eyesight, toto.info2.footsize);
     return 0;
 }

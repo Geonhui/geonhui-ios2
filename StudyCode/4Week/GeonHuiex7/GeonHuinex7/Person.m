@@ -29,10 +29,20 @@
     self.info = tempInfo;
 }
 
+- (void)setEyesight:(CGFloat)eyesight footsize:(CGFloat)footsize
+{
+    charactor2 tempInfo2 = {eyesight, footsize};
+    self.info2 = tempInfo2;
+}
+
 //구조체 반환
 - (charactor)personInfo
 {
     return self.info;
 }
 
+- (charactor2)personInfo2
+{
+    return self.info2;
+}
 @end

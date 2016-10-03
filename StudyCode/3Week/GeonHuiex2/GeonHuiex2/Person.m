@@ -34,4 +34,17 @@
     return nil;
 }
 //-------------------------------------------------------------------------------------------------
+- (id)dance:(id)where when:(id)when becuase:(id)becuase who:(id)who
+{
+    NSLog(@"%@에서 %@날 %@때문에 %@춤을춘다.", where, when, becuase, who);
+    return nil;
+}
+
+- (id)love:(id)who howmany:(id)howmany
+{
+    NSLog(@"나는 %@를 %@만큼 사랑한다.", who, howmany);
+    return nil;
+}
+
+
 @end
