@@ -145,7 +145,7 @@
     [box2 addSubview:image2];
     UILabel *label2 = [[UILabel alloc]initWithFrame:CGRectMake(0, box2.frame.size.height - 30,
                                                                   box2.frame.size.width, 30)];
-    label2.text = @"무한클릭";
+    label2.text = @"10000클릭";
     label2.textColor = [UIColor redColor];
     label2.textAlignment = NSTextAlignmentCenter;
     [box2 addSubview:label2];
@@ -192,6 +192,7 @@
     [box4 addSubview:label4];
     
     //box5
+    //횟수 카운트 표시
     UIView *box5 = [[UIView alloc]initWithFrame:CGRectMake(15, newView.frame.size.height + 30,
                                                                self.view.frame.size.width - 30, 70)];
     box5.backgroundColor = [UIColor blackColor];
@@ -205,6 +206,7 @@
     [box5 addSubview:label5];
     
     //box6
+    //10번, 100번, 1000번 버튼
     UIView *box6 = [[UIView alloc]initWithFrame:CGRectMake(15, newView.frame.size.height + 110,
                                                                self.view.frame.size.width -30, 60)];
     box6.backgroundColor = [UIColor blackColor];
