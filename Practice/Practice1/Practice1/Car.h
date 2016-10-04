@@ -30,7 +30,7 @@
  * @param whatControl 조작하기위해
  */
 // 전원을 켠다          차안의 모든것   무엇을 하기위해
-- (id)powerOn:(id)inTheCar whatControl:(id)whatControl;
+- (NSString *)powerOn:(id)inTheCar whatControl:(id)whatControl;
 
 /**
  * 차의 무엇인가를 동작을 멈추기 위해 전원을 끈다.

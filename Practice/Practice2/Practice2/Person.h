@@ -14,6 +14,12 @@
 @property NSString *sex;
 @property NSString *jobName;
 // 최상위 상속 메서드
+
+/**
+ * 얼마나 살것인가?
+ * @param life  살것이다.
+ * @param however 얼마나
+ */
 - (id)life:(Person*)however;
 
 
