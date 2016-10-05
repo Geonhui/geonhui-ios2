@@ -63,12 +63,19 @@ int main(int argc, const char * argv[]) {
 //    NSLog(@"%lf",[dim coneVolume:2 high:2]);
     
     //학점 계산기
-    Hit *hac = [[Hit alloc]init];
-    [hac addScore:30.6];
-    [hac addScore:29];
-    [hac addScore:10.8];
-    NSLog(@"%lf 평균입니다.", [hac averige]);
+//    Hit *hac = [[Hit alloc]init];
+//    [hac addScore:30.6];
+//    [hac addScore:29];
+//    [hac addScore:10.8];
+//    NSLog(@"%lf 평균입니다.", [hac averige]);
     
+    //while문과 for문
+    //[Hit mutiplicationTable:3];
+    //[Hit mutiplicationTable2:4];
+    //[Hit factorial:4];
+    //[Hit triangularNum:10];
+    //[Hit addAllNum:1234];
+    [Hit game369:29];
     return 0;
     
     

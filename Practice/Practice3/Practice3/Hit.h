@@ -53,7 +53,17 @@
 // 원뿔
 - (CGFloat)coneVolume:(CGFloat)ridius high:(CGFloat)high;
 
-
+//구구단 구현
++ (void)mutiplicationTable:(NSInteger)dan;
++ (void)mutiplicationTable2:(NSInteger)value;
+//팩토리얼
++ (void)factorial:(NSInteger)value;
+//삼각수
++ (void)triangularNum:(NSInteger)value;
+//각 자리수 더하기
++ (void)addAllNum:(NSInteger)value;
+//3,6,9게임
++ (void)game369:(NSInteger)value;
 
 - (instancetype)initWithuserName:(NSString *)userName; //사용자 이름
 

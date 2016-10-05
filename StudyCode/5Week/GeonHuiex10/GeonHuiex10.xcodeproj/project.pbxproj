@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BBB3EC891DA37FCC0090FCEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3EC881DA37FCC0090FCEA /* main.m */; };
 		BBB3EC911DA37FE40090FCEA /* Gugudan.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3EC901DA37FE40090FCEA /* Gugudan.m */; };
+		BBFCB75B1DA4C92B00B050F3 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFCB75A1DA4C92B00B050F3 /* Dictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BBB3EC881DA37FCC0090FCEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBB3EC8F1DA37FE40090FCEA /* Gugudan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gugudan.h; sourceTree = "<group>"; };
 		BBB3EC901DA37FE40090FCEA /* Gugudan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gugudan.m; sourceTree = "<group>"; };
+		BBFCB7591DA4C92B00B050F3 /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		BBFCB75A1DA4C92B00B050F3 /* Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				BBB3EC881DA37FCC0090FCEA /* main.m */,
+				BBFCB7591DA4C92B00B050F3 /* Dictionary.h */,
+				BBFCB75A1DA4C92B00B050F3 /* Dictionary.m */,
 				BBB3EC8F1DA37FE40090FCEA /* Gugudan.h */,
 				BBB3EC901DA37FE40090FCEA /* Gugudan.m */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFCB75B1DA4C92B00B050F3 /* Dictionary.m in Sources */,
 				BBB3EC891DA37FCC0090FCEA /* main.m in Sources */,
 				BBB3EC911DA37FE40090FCEA /* Gugudan.m in Sources */,
 			);
@@ -252,6 +258,7 @@
 				BBB3EC8E1DA37FCC0090FCEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

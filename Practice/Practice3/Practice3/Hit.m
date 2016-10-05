@@ -120,8 +120,64 @@
     return averigeTemp;
 }
 
+//구구단 구현 while
++ (void)mutiplicationTable:(NSInteger)dan
+{
+    NSInteger value = 1;
+    while (value < 9) {
+        NSInteger total = dan * value;
+        NSLog(@" %ld * %ld = %ld", dan, value, total);
+        value += 1;
+    }
+}
 
+//구구단 구현 for
++ (void)mutiplicationTable2:(NSInteger)value
+{
+    NSInteger Value1 = 1;
+    for (NSInteger i = 0; i < 9; i += 1) {
+        Value1 = value * i;
+        NSLog(@"%ld * %ld = %ld", value, i, Value1);
+    }
+}
 
+//팩토리얼
++ (void)factorial:(NSInteger)value
+{
+    NSInteger facValue = 1;
+    for (NSInteger i = 1; i <= value; i += 1) {
+        facValue = facValue * i;
+    }NSLog(@"%ld", facValue);
+}
 
+//삼각수구하기
++ (void)triangularNum:(NSInteger)value
+{
+    NSInteger num = 0;
+    for (NSInteger j = 0; j <= value; j += 1) {
+        num = num + j;
+    }NSLog(@"%ld", num);
+}
 
+//각 자리수 더하기
++ (void)addAllNum:(NSInteger)value
+{
+    NSInteger num2 = 0;
+    while (0 < value) {
+        num2 = num2 + value % 10;
+        value = value / 10;
+    }NSLog(@"%ld", num2);
+}
+
+//3,6,9게임
++ (void)game369:(NSInteger)value
+{
+    NSString * sam = @"*";
+    for (NSInteger i = 0; i < value; i += 1) {
+        if (i%10 == 3 || i%10 == 6 || i%10 == 9) {
+            NSLog(@"%@", sam);
+        }else
+            NSLog(@"%ld", i);
+    }
+}
 @end

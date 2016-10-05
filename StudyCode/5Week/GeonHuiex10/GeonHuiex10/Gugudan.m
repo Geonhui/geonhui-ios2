@@ -77,31 +77,5 @@
         }
     }
 }
-////데이터 분석
-////앨범 이름가져오기
-//- (NSString *)titleWithData:(NSDictionary *)data
-//{
-//    
-//}
-////노래의 제목들
-//- (NSArray *)songTitles:(NSDictionary *)data
-//{
-//    
-//}
-////노래 데이터리스트 만들기
-//- (NSArray *)songDatas:(NSDictionary *)data
-//{
-//    
-//}
-////제목 입력시 가사
-//- (NSString *)lyricWithData:(NSDictionary *)data
-//{
-//    
-//}
-////제목 입력시 재생 시간
-//- (NSData *)playTimeWithData:(NSDictionary *)data
-//{
-//    
-//}
 
 @end
