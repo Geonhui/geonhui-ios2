@@ -22,6 +22,10 @@ int main(int argc, const char * argv[]) {
         [Dictionary songTileList:aoaAlbum];
         //노래 데이터리스트
         [Dictionary songDataList:aoaAlbum];
+        //제목으로 가사가져오기
+        [Dictionary lyricsSongTitleInput:@"한개" data:aoaAlbum];
+        //제목으로 재생시간 가져오기
+        [Dictionary songTime:@"한개" data:aoaAlbum];
 
     }
     
