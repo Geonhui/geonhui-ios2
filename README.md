@@ -1,4 +1,4 @@
-# geonhui-ios2
+# welcome to geonhui-ios2
 ## IOS School 2기 김건희
 
 ### 폴더
@@ -39,6 +39,11 @@
 * 10월 5일 - 복습, 웹프스 소프트웨어 공학
 * 10월 6일 - 자료구조 (스텍, 큐, 소트)
 * 10월 7일 - 자료구조 (스텍, 큐, 소트)
+
+#### 6 Week
+* 10월 10일 - UI component, UI - Coding - VC 객체생성 및 기본 UI
+* 10월 11일 - UI component, Protocol, Delegate, UIscroll, UITextField
+* 10월 12일 - 복습, 웹프스 소프트웨어 공학
 
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
