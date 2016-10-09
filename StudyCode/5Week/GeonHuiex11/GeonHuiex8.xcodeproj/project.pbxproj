@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB38EE681D9B617700E552B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38EE671D9B617700E552B4 /* main.m */; };
+		BB38EE701D9B61EC00E552B4 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38EE6F1D9B61EC00E552B4 /* Node.m */; };
+		BB38EE731D9B620500E552B4 /* DlinkdList.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38EE721D9B620500E552B4 /* DlinkdList.m */; };
+		BBA352D51DA656F800D57EAB /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA352D41DA656F800D57EAB /* Stack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB38EE621D9B617700E552B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB38EE641D9B617700E552B4 /* GeonHuiex8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeonHuiex8; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB38EE671D9B617700E552B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB38EE6E1D9B61EC00E552B4 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BB38EE6F1D9B61EC00E552B4 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		BB38EE711D9B620500E552B4 /* DlinkdList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlinkdList.h; sourceTree = "<group>"; };
+		BB38EE721D9B620500E552B4 /* DlinkdList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlinkdList.m; sourceTree = "<group>"; };
+		BBA352D31DA656F800D57EAB /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		BBA352D41DA656F800D57EAB /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB38EE611D9B617700E552B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB38EE5B1D9B617700E552B4 = {
+			isa = PBXGroup;
+			children = (
+				BB38EE661D9B617700E552B4 /* GeonHuiex8 */,
+				BB38EE651D9B617700E552B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB38EE651D9B617700E552B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB38EE641D9B617700E552B4 /* GeonHuiex8 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB38EE661D9B617700E552B4 /* GeonHuiex8 */ = {
+			isa = PBXGroup;
+			children = (
+				BB38EE671D9B617700E552B4 /* main.m */,
+				BB38EE6E1D9B61EC00E552B4 /* Node.h */,
+				BB38EE6F1D9B61EC00E552B4 /* Node.m */,
+				BB38EE711D9B620500E552B4 /* DlinkdList.h */,
+				BB38EE721D9B620500E552B4 /* DlinkdList.m */,
+				BBA352D31DA656F800D57EAB /* Stack.h */,
+				BBA352D41DA656F800D57EAB /* Stack.m */,
+			);
+			path = GeonHuiex8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB38EE631D9B617700E552B4 /* GeonHuiex8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB38EE6B1D9B617700E552B4 /* Build configuration list for PBXNativeTarget "GeonHuiex8" */;
+			buildPhases = (
+				BB38EE601D9B617700E552B4 /* Sources */,
+				BB38EE611D9B617700E552B4 /* Frameworks */,
+				BB38EE621D9B617700E552B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeonHuiex8;
+			productName = GeonHuiex8;
+			productReference = BB38EE641D9B617700E552B4 /* GeonHuiex8 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB38EE5C1D9B617700E552B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "geon hui kim";
+				TargetAttributes = {
+					BB38EE631D9B617700E552B4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BB38EE5F1D9B617700E552B4 /* Build configuration list for PBXProject "GeonHuiex8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB38EE5B1D9B617700E552B4;
+			productRefGroup = BB38EE651D9B617700E552B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB38EE631D9B617700E552B4 /* GeonHuiex8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB38EE601D9B617700E552B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA352D51DA656F800D57EAB /* Stack.m in Sources */,
+				BB38EE731D9B620500E552B4 /* DlinkdList.m in Sources */,
+				BB38EE681D9B617700E552B4 /* main.m in Sources */,
+				BB38EE701D9B61EC00E552B4 /* Node.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB38EE691D9B617700E552B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB38EE6A1D9B617700E552B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB38EE6C1D9B617700E552B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB38EE6D1D9B617700E552B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB38EE5F1D9B617700E552B4 /* Build configuration list for PBXProject "GeonHuiex8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB38EE691D9B617700E552B4 /* Debug */,
+				BB38EE6A1D9B617700E552B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB38EE6B1D9B617700E552B4 /* Build configuration list for PBXNativeTarget "GeonHuiex8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB38EE6C1D9B617700E552B4 /* Debug */,
+				BB38EE6D1D9B617700E552B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB38EE5C1D9B617700E552B4 /* Project object */;
+}

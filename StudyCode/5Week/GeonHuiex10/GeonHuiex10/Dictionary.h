@@ -20,6 +20,8 @@
 //제목 입력시 가사
 +(NSString *)lyricsSongTitleInput:(NSString *)title data:(NSDictionary *)data;
 //제목 입력시 재생시간
-+(NSDate *)songTime:(NSString *)title data:(NSDictionary *)data;
++(NSNumber *)songTime:(NSString *)title data:(NSDictionary *)data;
 
+//날짜보여주기
+- (void)testMethod;
 @end

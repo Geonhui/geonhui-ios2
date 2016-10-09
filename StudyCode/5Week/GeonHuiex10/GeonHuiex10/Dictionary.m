@@ -55,42 +55,51 @@
         NSString *name2 = [dic4 valueForKey:@"name"];   //이름을 가져옴
         if (name1 == name2) {   //입력한 타이틀과 딕셔너리의 제목이 같을때
         NSString *lyrics2 = [dic5 valueForKey:@"lyrics"]; //가사를 가져온다.
-            NSLog(@"%@", lyrics2); // 스트링으로 표현
-        }else
-            NSLog(@"가사가 맞지 않습니다.");
+        NSLog(@"%@", lyrics2); // 스트링으로 표현
+        }
     }return lyric1;
 }
 
 //제목입력시 재생시간
-+(NSDate *)songTime:(NSString *)title data:(NSDictionary *)data
++(NSNumber *)songTime:(NSString *)title data:(NSDictionary *)data //nsdata를 넘버로 바꿈
 {
     NSMutableArray *mut6 = [data objectForKey:@"song_list"]; //배열을 가져옴
-    NSString *name3 = title;
-    for (NSDictionary *dic6 in mut6) {
-        NSString *name4 = [dic6 valueForKey:@"name"];
-        if (name3 == name4) {
-            NSInteger time = [dic6 valueForKey:@"total_play_time"];
-            NSLog(@"%ld", time);
-        }else
-            NSLog(@"0");
-    }return data;
+    NSString *name3 = title; //노래제목을 네임3에 보냄
+    NSNumber *data1; //반환
+    for (NSDictionary *dic6 in mut6) {  //배열안의 딕셔너리를 다 가져옴
+        NSString *name4 = [dic6 valueForKey:@"name"]; //이름을 가져옴
+        if (name3 == name4) { //입력한 타이틀과 딕셔너리의 노래제목이 같을때
+            NSNumber *time = [dic6 valueForKey:@"total_play_time"]; //재생시간을 넘버로 가져온다
+            NSLog(@"%@", time);  //재생시간을 표현
+        }
+    }return data1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- (void)testMethod
+{
+    NSString *str = @"130";
+    
+    //string >> integer
+    NSInteger num = str.integerValue;
+    CGFloat fnum = str.floatValue;
+    
+    NSNumber *number = [NSNumber numberWithInteger:num];
+    
+    //integer >> string
+    NSString *str2 = [NSString stringWithFormat:@"%ld",num];
+    
+    NSRange range = NSMakeRange(1, 2);
+    NSLog(@"range %@",[str substringWithRange:range]);
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy/mm/dd hh:mm:ss"];
+    
+    NSDate *date = [formatter dateFromString:@"2016/10/06 11:11:11"];
+    NSLog(@"%@", date);
+    
+    NSString *datestr = [formatter stringFromDate:date];
+    NSLog(@"%@", datestr);
+}
 
 
 

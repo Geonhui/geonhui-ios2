@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Gugudan.h"
-#include "Dictionary.h"
+#import "Dictionary.h"
 int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
@@ -23,13 +23,15 @@ int main(int argc, const char * argv[]) {
         //노래 데이터리스트
         [Dictionary songDataList:aoaAlbum];
         //제목으로 가사가져오기
-        [Dictionary lyricsSongTitleInput:@"한개" data:aoaAlbum];
+        [Dictionary lyricsSongTitleInput:@"심쿵해" data:aoaAlbum];
         //제목으로 재생시간 가져오기
         [Dictionary songTime:@"한개" data:aoaAlbum];
 
     }
     
-    
+    //날짜보여주기
+    Dictionary *dicdic = [[Dictionary alloc]init];
+    [dicdic testMethod];
     
 //    Gugudan *dandan = [[Gugudan alloc]init];
 //    [dandan mutiplicationTable:3];   //while문 구구단
