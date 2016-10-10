@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface QuickSort : NSObject
+
 -(NSArray *)quickSort:(NSArray *)unSortedList;
+
 @end

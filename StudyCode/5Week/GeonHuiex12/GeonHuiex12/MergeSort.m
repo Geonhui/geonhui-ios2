@@ -23,7 +23,7 @@
 
 -(NSArray *)mergeSort:(NSArray *)list{
     
-    if(list.count <2){
+    if(list.count < 2){
         return list;
     }
     
@@ -31,6 +31,7 @@
     NSInteger centerIndex = list.count/2;
     
     //left
+    //nsmakerange는 0부터 ~ 어디까지가 아니라 0부터 어디까지의 갯수를 정한다.
     NSRange lRange = NSMakeRange(0, centerIndex);
     NSArray *leftList = [list subarrayWithRange:lRange];
     

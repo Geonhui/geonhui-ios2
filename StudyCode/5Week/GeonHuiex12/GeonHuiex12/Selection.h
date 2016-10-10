@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Selection : NSObject
+
+//비교카운트
 @property NSInteger totalCompareCount;
+//스위치
 @property NSInteger totalSwitchCount;
 
 //선택정렬

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface BubbleSort : NSObject
+
 @property NSInteger totalSwitchCount;
 @property NSInteger totalCompareCount;
 

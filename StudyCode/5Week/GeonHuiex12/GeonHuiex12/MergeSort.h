@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface MergeSort : NSObject
+
 @property NSInteger totalSwitchCount;
 @property NSInteger totalCompareCount;
 
