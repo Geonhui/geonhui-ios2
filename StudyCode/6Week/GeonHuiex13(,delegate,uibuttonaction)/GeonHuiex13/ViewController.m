@@ -101,36 +101,36 @@
 }
 
 ////버튼누를때마다 해당버튼 눌림 표시
-//- (void)touchUpInsideok:(UIButton *)sender
-//    {   //버튼마다 지정된 태그값을 받아 온다.
-//        NSInteger tagValue = sender.tag;
-//        if (sender.selected) {
-//            //버튼을 누르지 안았을때
-//            sender.selected = NO;
-//        }else {
-//            //버튼을 눌렀을때
-//            sender.selected = YES;
-//        }
-//        //
-//        [self.label setText:[NSString stringWithFormat:@"%ld번 입니다.", sender.tag]];
-//        NSLog(@"버튼클릭완료");
-//    }
+- (void)touchUpInsideok:(UIButton *)sender
+    {   //버튼마다 지정된 태그값을 받아 온다.
+        NSInteger tagValue = sender.tag;
+        if (sender.selected) {
+            //버튼을 누르지 안았을때
+            sender.selected = NO;
+        }else {
+            //버튼을 눌렀을때
+            sender.selected = YES;
+        }
+        //
+        [self.label setText:[NSString stringWithFormat:@"%ld번 입니다.", sender.tag]];
+        NSLog(@"버튼클릭완료");
+    }
 
 //버튼누르면 해당버튼눌렀다는 표시와 해제할경우 이전상태로 표시해줌
-- (void)touchUpInsideok:(UIButton*)sender
-{
-     if(sender.selected) {                          //샌더의 셀렉티드 일때
-     sender.selected = NO;                          //sender.selected에 NO값을 넣어준다.
-     self.beforBtn = nil;                           //self.beforBtn에 nil값을 넣어준다.
-     self.label.text = @"버튼클릭전입니다.";             //self.label.text에 문자를 입력해준다.
-     }else {                                        //self.beforBtn.selected에 NO값을 넣어준다.
-     self.beforBtn.selected = NO;                   //text객체에 sender.titlelabel.text를 넣어준다.
-     NSString *text = sender.titleLabel.text;       //self.label.text에 text를 넣어준다.
-     self.label.text = text;                        //sender.selected를 yes로 바꾼다.
-     sender.selected = YES;                         //self.beforBtn에 sender값을 넣어준다.
-     self.beforBtn = sender;
-    }
-}
+//- (void)touchUpInsideok:(UIButton*)sender
+//{
+//     if(sender.selected) {                          //샌더의 셀렉티드 일때
+//     sender.selected = NO;                          //sender.selected에 NO값을 넣어준다.
+//     self.beforBtn = nil;                           //self.beforBtn에 nil값을 넣어준다.
+//     self.label.text = @"버튼클릭전입니다.";             //self.label.text에 문자를 입력해준다.
+//     }else {                                        //self.beforBtn.selected에 NO값을 넣어준다.
+//     self.beforBtn.selected = NO;                   //text객체에 sender.titlelabel.text를 넣어준다.
+//     NSString *text = sender.titleLabel.text;       //self.label.text에 text를 넣어준다.
+//     self.label.text = text;                        //sender.selected를 yes로 바꾼다.
+//     sender.selected = YES;                         //self.beforBtn에 sender값을 넣어준다.
+//     self.beforBtn = sender;
+//    }
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
