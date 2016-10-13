@@ -42,9 +42,9 @@
 
 #### 6 Week
 * 10월 10일 - UI component, UI - Coding - VC 객체생성 및 기본 UI
-* 10월 11일 - UI component, Protocol, Delegate, UIscroll, UITextField
+* 10월 11일 - UI component, Protocol, Delegate, [UIscroll], UITextField
 * 10월 12일 - 복습, 웹프스 소프트웨어 공학
-* 10월 13일 - Table View
+* 10월 13일 - [Table View]
 * 10월 14일 - Table View 실습
 
 ### 마크다운 참조
