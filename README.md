@@ -1,4 +1,4 @@
-# welcome to geonhui-ios2
+# welcome to geonhui-ios2 Git
 ## IOS School 2기 김건희
 
 ### 폴더
