@@ -72,6 +72,8 @@
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 
+   [Table View]: <http://j2enty.tistory.com/entry/iOS-TableView>
+   [UIscroll]: <http://greenalice.tistory.com/225>
    [마크다운]: <https://stackedit.io/editor#>
    [운영체제]: <https://goo.gl/4UaIWu>
    [퀵헬프]: <https://developer.apple.com/library/content/documentation/Xcode/Reference/xcode_markup_formatting_ref/SymbolDocumentation.html>
