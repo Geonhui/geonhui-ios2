@@ -47,6 +47,13 @@
 * 10월 13일 - [Table View]
 * 10월 14일 - Table View 실습
 
+#### 7 Week
+* 10월 17일 - MVC, StoryBoard
+* 10월 18일 - Auto Layout, Auto Layout실습
+* 10월 19일 - 복습, 웹프스 소프트웨어 공학
+* 10월 20일 - alloc / dealloc, Application life cycle, View Controller life cycle
+* 10월 21일 - Application State Change, UX특강, TeamBilding
+
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
