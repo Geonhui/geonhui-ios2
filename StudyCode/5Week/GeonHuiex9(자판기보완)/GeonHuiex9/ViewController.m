@@ -116,12 +116,14 @@
     box1.backgroundColor = [UIColor blackColor];
     box1.alpha = 1;
     [newView addSubview:box1];
+    
     //이미지뷰
     UIImageView *image1 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, box1.frame.size.width,
                                                                              box1.frame.size.height - 30)];
     image1.image = [UIImage imageNamed:@"람보르기니.jpg"];
     [image1 setContentMode:UIViewContentModeScaleToFill];
     [box1 addSubview:image1];
+    
     //라벨
     UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(0,box1.frame.size.height - 30,
                                                                  box1.frame.size.width, 30)];

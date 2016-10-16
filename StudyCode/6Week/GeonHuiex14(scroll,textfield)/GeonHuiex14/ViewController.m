@@ -13,41 +13,42 @@
 @property UITextField *textField;
 @property UIButton *button;
 @property UILabel *label;
-//@property UILabel *page;
+@property UILabel *page;
 
 @end
 
 @implementation ViewController
 
-//- (void)viewDidLoad {
-//
-//    [super viewDidLoad];
-// 
-//    UIScrollView *scroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 460)];
-//    [scroll setContentSize:CGSizeMake(scroll.frame.size.width * 3, 460)];
-//    scroll.delegate = self;
-//    scroll.pagingEnabled = YES;
-//    [self.view addSubview:scroll];
-//    
-//    UIView *newView1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 460)];
-//    newView1.backgroundColor = [UIColor purpleColor];
-//    [scroll addSubview:newView1];
-//    
-//    UIView *newView2 = [[UIView alloc]initWithFrame:CGRectMake(320, 0, 320, 460)];
-//    newView2.backgroundColor = [UIColor redColor];
-//    [scroll addSubview:newView2];
-//
-//    UIView *newView3 = [[UIView alloc]initWithFrame:CGRectMake(640, 0, 320, 460)];
-//    newView3.backgroundColor = [UIColor greenColor];
-//    [scroll addSubview:newView3];
-//
-//    self.page = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, 300, 50)];
-//    self.page.text = @"page : 1";
-//    self.page.font = [UIFont systemFontOfSize:40];
-//    self.page.textColor = [UIColor whiteColor];
-//    self.page.textAlignment = NSTextAlignmentCenter;
-//    [self.view addSubview:self.page];
-//}
+- (void)viewDidLoad {
+
+    [super viewDidLoad];
+    
+    //스크롤뷰 생성
+    UIScrollView *scroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 460)];
+    [scroll setContentSize:CGSizeMake(scroll.frame.size.width * 3, 460)]; //컨텐츠뷰 설정
+    scroll.delegate = self; //델리게이트 연결
+    scroll.pagingEnabled = YES; //스크롤 사용
+    [self.view addSubview:scroll];
+    //페이지 1
+    UIView *newView1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 460)];
+    newView1.backgroundColor = [UIColor purpleColor];
+    [scroll addSubview:newView1];
+    //페이지 2
+    UIView *newView2 = [[UIView alloc]initWithFrame:CGRectMake(320, 0, 320, 460)];
+    newView2.backgroundColor = [UIColor redColor];
+    [scroll addSubview:newView2];
+    //페이지 3
+    UIView *newView3 = [[UIView alloc]initWithFrame:CGRectMake(640, 0, 320, 460)];
+    newView3.backgroundColor = [UIColor greenColor];
+    [scroll addSubview:newView3];
+
+    self.page = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, 300, 50)];
+    self.page.text = @"page : 1";
+    self.page.font = [UIFont systemFontOfSize:40];
+    self.page.textColor = [UIColor whiteColor];
+    self.page.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:self.page];
+}
 
 //텍스트필드
 - (void)viewDidLoad {
