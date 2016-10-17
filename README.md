@@ -48,7 +48,7 @@
 * 10월 14일 - Table View 실습
 
 #### 7 Week
-* 10월 17일 - MVC, StoryBoard
+* 10월 17일 - [MVC], StoryBoard
 * 10월 18일 - Auto Layout, Auto Layout실습
 * 10월 19일 - 복습, 웹프스 소프트웨어 공학
 * 10월 20일 - alloc / dealloc, Application life cycle, View Controller life cycle
@@ -79,6 +79,7 @@
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 
+   [MVC]: <http://j2enty.tistory.com/entry/Stanford-iOS-1-MVC-and-Intro-To-Objective-C>
    [Table View]: <http://j2enty.tistory.com/entry/iOS-TableView>
    [UIscroll]: <http://greenalice.tistory.com/225>
    [마크다운]: <https://stackedit.io/editor#>
