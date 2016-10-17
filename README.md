@@ -41,7 +41,7 @@
 * 10월 7일 - 자료구조 (스텍, 큐, 소트)
 
 #### 6 Week
-* 10월 10일 - UI component, UI - Coding - VC 객체생성 및 기본 UI
+* 10월 10일 - UI component, [UI] - Coding - VC 객체생성 및 기본 UI
 * 10월 11일 - UI component, Protocol, Delegate, [UIscroll], UITextField
 * 10월 12일 - 복습, 웹프스 소프트웨어 공학
 * 10월 13일 - [Table View]
@@ -79,6 +79,7 @@
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 
+   [UI]: <http://blog.daum.net/sualchi/13720258>
    [MVC]: <http://j2enty.tistory.com/entry/Stanford-iOS-1-MVC-and-Intro-To-Objective-C>
    [Table View]: <http://j2enty.tistory.com/entry/iOS-TableView>
    [UIscroll]: <http://greenalice.tistory.com/225>
