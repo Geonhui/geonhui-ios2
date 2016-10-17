@@ -42,6 +42,7 @@
 //스토리보드의 버튼의 액션연결
 - (IBAction)clickbutton:(id)sender
 {   //sender가 버튼일 경우
+    //isKindOfclass는 해당 클래스가 맞느냐
     if ([sender isKindOfClass:[UIButton class]]) {
         UIButton *button = sender;
         NSLog(@"button title : %@, tag : %ld", [[button titleLabel]text], [button tag]);
