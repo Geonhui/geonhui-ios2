@@ -18,7 +18,7 @@
 
 @implementation IdolCell
 
-//
+//재사용
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -35,18 +35,21 @@
     [self updateLayout];
 }
 
-//
+//뷰 생성
 -(void)createView
 {
+    //배경이미지
     self.backgroundImage = [[UIImageView alloc]init];
     self.backgroundImage.contentMode = UIViewContentModeScaleAspectFill;
     self.backgroundImage.clipsToBounds = YES;
     [self addSubview:self.backgroundImage];
     
+    //커버뷰
     self.coverView = [[UIView alloc]initWithFrame:CGRectMake(10, 10, self.frame.size.width-20, self.frame.size.height-20)];
     self.coverView.backgroundColor = [[UIColor alloc]initWithRed:30.f/255 green:30.f/255 blue:30.f/255 alpha:0.5];
-    
     [self.backgroundImage addSubview:self.coverView];
+    
+    //타이틀
     self.titleLb = [[UILabel alloc]init];
     self.titleLb.font = [UIFont boldSystemFontOfSize:40];
     self.titleLb.textAlignment = NSTextAlignmentCenter;
@@ -54,7 +57,7 @@
     [self.coverView addSubview:self.titleLb];
 }
 
-//
+//뷰들의 레이아웃
 -(void)updateLayout
 {
     self.backgroundImage.frame = self.bounds;
@@ -62,13 +65,13 @@
     self.titleLb.frame = CGRectMake(0, 20, self.coverView.frame.size.width, self.coverView.frame.size.height-40);
 }
 
-//
+//배경 이미지
 -(void)setBackgroundImageName:(NSString *)name
 {
     self.backgroundImage.image = [UIImage imageNamed:name];
 }
 
-//
+//타이틀
 -(void)setTitle:(NSString *)title
 {
     self.titleLb.text = title;

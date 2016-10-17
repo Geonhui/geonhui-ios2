@@ -10,8 +10,9 @@
 
 @interface IdolCell : UITableViewCell
 
+//idolcell메서드 정의
 -(void)setTitle:(NSString *)title;
-
+//idolcell메서드 정의
 -(void)setBackgroundImageName:(NSString *)name;
 
 @end
