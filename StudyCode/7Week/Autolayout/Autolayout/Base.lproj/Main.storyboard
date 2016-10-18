@@ -445,7 +445,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdV-dC-eNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4877.6000000000004" y="123.68815592203899"/>
+            <point key="canvasLocation" x="4986" y="124"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JnI-pJ-0J4">
@@ -614,7 +614,7 @@ You..  네가 필요해 </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MSt-KG-hPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2153" y="976"/>
+            <point key="canvasLocation" x="2039" y="1355"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XhU-E8-FMa">
@@ -780,7 +780,7 @@ Yeah yeah umm yeah
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNU-Qb-w7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2889" y="976"/>
+            <point key="canvasLocation" x="2775" y="1355"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qFB-Cv-4Wa">
@@ -923,7 +923,7 @@ Yeah yeah umm yeah
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epr-uX-HBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3625" y="976"/>
+            <point key="canvasLocation" x="3511" y="1355"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5aJ-C4-pde">
@@ -995,7 +995,7 @@ Yeah yeah umm yeah
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktz-Pt-wbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4877.6000000000004" y="785.75712143928047"/>
+            <point key="canvasLocation" x="5631" y="124"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9ES-Vg-1RI">
@@ -1060,7 +1060,7 @@ Yeah yeah umm yeah
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IfI-F2-145" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5541.6000000000004" y="786.65667166416802"/>
+            <point key="canvasLocation" x="5630" y="795"/>
         </scene>
     </scenes>
     <resources>
@@ -1069,8 +1069,8 @@ Yeah yeah umm yeah
         <image name="나안연.jpg" width="1440" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CvV-x6-HYy"/>
-        <segue reference="1Dv-dx-Ij6"/>
-        <segue reference="ZWP-nN-PaF"/>
+        <segue reference="aOn-ta-oEq"/>
+        <segue reference="Uit-1h-5QX"/>
+        <segue reference="lqR-G6-ItO"/>
     </inferredMetricsTieBreakers>
 </document>
