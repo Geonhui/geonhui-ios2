@@ -49,7 +49,7 @@
 
 #### 7 Week
 * 10월 17일 - [MVC], StoryBoard
-* 10월 18일 - Auto Layout, Auto Layout실습
+* 10월 18일 - [Auto Layout], Auto Layout실습, [Size Class]
 * 10월 19일 - 복습, 웹프스 소프트웨어 공학
 * 10월 20일 - alloc / dealloc, Application life cycle, View Controller life cycle
 * 10월 21일 - Application State Change, UX특강, TeamBilding
@@ -79,6 +79,9 @@
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 
+
+   [Auto Layout]: <https://goo.gl/yX2NdF>
+   [Size Class]: <https://goo.gl/cHzzoJ>
    [UI]: <http://blog.daum.net/sualchi/13720258>
    [MVC]: <http://j2enty.tistory.com/entry/Stanford-iOS-1-MVC-and-Intro-To-Objective-C>
    [Table View]: <http://j2enty.tistory.com/entry/iOS-TableView>
