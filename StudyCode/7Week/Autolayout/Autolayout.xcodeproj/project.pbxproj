@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6E96E81DB65FDB00E8F196 /* mc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB6E96E71DB65FDB00E8F196 /* mc.jpg */; };
 		BBA7C0991DB5DCBB00F4E6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA7C0981DB5DCBB00F4E6C9 /* main.m */; };
 		BBA7C09C1DB5DCBB00F4E6C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA7C09B1DB5DCBB00F4E6C9 /* AppDelegate.m */; };
 		BBA7C09F1DB5DCBB00F4E6C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA7C09E1DB5DCBB00F4E6C9 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB6E96E71DB65FDB00E8F196 /* mc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mc.jpg; sourceTree = SOURCE_ROOT; };
 		BBA7C0941DB5DCBB00F4E6C9 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA7C0981DB5DCBB00F4E6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBA7C09A1DB5DCBB00F4E6C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BBA7C0A31DB5DCBC00F4E6C9 /* Assets.xcassets */,
 				BBA7C0BA1DB64D4700F4E6C9 /* GARY.jpg */,
 				BBA7C0B61DB6480100F4E6C9 /* 나안연.jpg */,
+				BB6E96E71DB65FDB00E8F196 /* mc.jpg */,
 				BBA7C0A51DB5DCBC00F4E6C9 /* LaunchScreen.storyboard */,
 				BBA7C0A81DB5DCBC00F4E6C9 /* Info.plist */,
 				BBA7C0971DB5DCBB00F4E6C9 /* Supporting Files */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBA7C0A71DB5DCBC00F4E6C9 /* LaunchScreen.storyboard in Resources */,
+				BB6E96E81DB65FDB00E8F196 /* mc.jpg in Resources */,
 				BBA7C0A41DB5DCBC00F4E6C9 /* Assets.xcassets in Resources */,
 				BBA7C0BB1DB64D4700F4E6C9 /* GARY.jpg in Resources */,
 				BBA7C0B81DB6480100F4E6C9 /* 나안연.jpg in Resources */,
@@ -315,6 +319,7 @@
 				BBA7C0AD1DB5DCBC00F4E6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
