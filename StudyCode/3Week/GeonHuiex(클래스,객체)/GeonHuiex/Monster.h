@@ -10,16 +10,24 @@
 
 @interface Monster : NSObject
 
-//인간캐릭터 선택
+/// 인간 캐릭터 선택
 @property id human;
-//악마캐릭터 선택
+/// 악마 캐릭터 선택
 @property id devil;
-//천사캐릭터 선택
+/// 천사 캐릭터 선택
 @property id angel;
-//요괴캐릭터 선택
+/// 요괴 캐릭터 선택
 @property id specter;
 
 //공격형,사냥,팀대전에 메타
+
+/**
+ * 공격 메서드
+ * @param attack 공격
+ * @return id 타입
+ * @author geonhui
+ * @version 1.0 ver
+ */
 - (id)attack;
 //방어형,보스전,레이드 메타
 - (id)defense;
@@ -27,5 +35,10 @@
 - (id)support;
 //복합형,팀대전,영웅대전 메타
 - (id)multiple;
+
+
+
+
+
 
 @end
