@@ -45,6 +45,5 @@ UIImageView (o)
 - **헤더파일**
 
 파일명에 애플에서 정해놓은 클래스의 이름과 동일하게 해서는 안된다.
->동작이 안되지는 않지만 피하는게 좋다.
-x-code파일명 UITableVIew 1 (x)
-                     StudyTableView (o)
+동작이 안되지는 않지만 피하는게 좋다.
+>x-code파일명 UITableVIew 1 (x)  StudyTableView (o)
