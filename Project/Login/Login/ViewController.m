@@ -122,17 +122,19 @@
     [self.mainScroll setContentOffset:CGPointMake(0, 60)];
     return YES;
 }
+
 //텍스트필드에서 작업을 종료했을 경우에 동작하는 메서드
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField
 {   //메일스크롤이 원래위치로 돌아옴
     [self.mainScroll setContentOffset:CGPointMake(0, 0)];
     return YES;
 }
+
 //키보드의 리턴버튼을 눌렀을 경우 동작하는 메서드
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     if (textField == self.idText) {
-        [self.idText resignFirstResponder];    //리자인은 사퇴
+        [self.idText resignFirstResponder];    //리자인은 사퇴, 되도록이면 안쓰는게 좋다
         [self.pwText becomeFirstResponder];    //비컴은 불러오기
     }else if (textField ==self.pwText) {
         [self.view endEditing:YES];            //키보드해제
