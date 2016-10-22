@@ -44,5 +44,20 @@ int main(int argc, const char * argv[]) {
      inTheCarWhatHappen: @"기름"
             whereDoor: @"주유구와 연료캡"];
     
+    
+    NSInteger number = 0 , i;
+    for (i = 1; i <= 10; i += 1) {
+        number = number + i;
+        NSLog(@"%ld       %ld",number, i);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
