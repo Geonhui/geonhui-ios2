@@ -54,6 +54,13 @@
 * 10월 20일 - alloc / dealloc, Application life cycle, View Controller life cycle
 * 10월 21일 - Application State Change, UX특강, TeamBilding
 
+#### 8 Week
+* 10월 24일 - 화면전환
+* 10월 25일 - 화면전환 실습
+* 10월 26일 - 복습, 웹프스 소프트웨어 공학
+* 10월 27일 - Alert Controller, Action Sheet, Image Picker
+* 10월 28일 - User Defaults, User Defaults를 이용한 사진 저장 및 불러오기 실습
+
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
@@ -70,16 +77,19 @@
 ### 소프트웨어 공학
 * [프로그래밍 패러다임]  , [객체지향 프로그래밍] , [객체지향 4대특징]
 
-### OBJECTIVE - C
+### IOS
 * [코딩 네이밍] - 네이밍 방법
 * [형식지정자] - 형식지정자 모음
 * [퀵헬프] - mark up
+* [휴먼인터페이스 가이드라인] - ios human interface
 
 ### 기타
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
+* [프로토타이핑] - Oven tool
 
-
+   [휴먼인터페이스 가이드라인]: <http://www.slideshare.net/stevenbrown374/ios-hig-40409821>
+   [프로토타이핑]: <https://ovenapp.io>
    [Auto Layout]: <https://goo.gl/yX2NdF>
    [Size Class]: <https://goo.gl/cHzzoJ>
    [UI]: <http://blog.daum.net/sualchi/13720258>
