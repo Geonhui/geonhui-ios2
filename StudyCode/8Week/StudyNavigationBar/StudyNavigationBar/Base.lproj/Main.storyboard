@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mFE-aB-cQl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller1-->
+        <scene sceneID="re9-Ed-I2T">
+            <objects>
+                <viewController id="C5u-7a-ovf" customClass="ViewController1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ihf-fw-Ou4"/>
+                        <viewControllerLayoutGuide type="bottom" id="NyG-cD-XVa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GHA-FN-LQT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Bwx-3S-Yle"/>
+                    <connections>
+                        <outlet property="pinktab" destination="Bwx-3S-Yle" id="ZiA-F8-S8Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46O-cD-cmE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1104.8" y="-607.64617691154433"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="dik-am-AAE">
+            <objects>
+                <viewController id="OhX-cr-mxA" customClass="ViewController2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P4I-pD-0UQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="LBa-J9-Xfa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yqG-yH-qoB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Z8X-36-4lf"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="orangetab" destination="Z8X-36-4lf" id="gBH-5e-cD7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOW-ov-5O0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="99"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EmF-Zd-yfj">
+            <objects>
+                <viewController id="raw-cu-z8m" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VwI-Qd-3Bo"/>
+                        <viewControllerLayoutGuide type="bottom" id="gPC-0w-FW8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="imD-KA-vRV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="D0x-Lh-h5Z" userLabel="yellowtab"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="URc-Eo-ovt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105" y="100"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2Kf-M6-UFU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mFE-aB-cQl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hdN-VZ-rUh">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="C5u-7a-ovf" kind="relationship" relationship="viewControllers" id="Sfw-zP-ip7"/>
+                        <segue destination="raw-cu-z8m" kind="relationship" relationship="viewControllers" id="7LG-j2-gRG"/>
+                        <segue destination="OhX-cr-mxA" kind="relationship" relationship="viewControllers" id="CEI-PL-ny9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rc0-2O-oZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165.59999999999999" y="-607.64617691154433"/>
+        </scene>
+    </scenes>
+</document>
