@@ -95,6 +95,7 @@
     UIAlertController *pop = [UIAlertController alertControllerWithTitle:bigtitleArray[indexPath.row]
                                                                  message:shottitleArray[indexPath.row]
                                                           preferredStyle:UIAlertControllerStyleAlert];
+    
     //alertaction - 띄운 팝업창에 액션을 준다, title, style, handler를 지정해줄수있다.
     UIAlertAction *popAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:nil];
     [pop addAction:popAction]; //pop이란 controller에 popaction이란 액션시킨다.

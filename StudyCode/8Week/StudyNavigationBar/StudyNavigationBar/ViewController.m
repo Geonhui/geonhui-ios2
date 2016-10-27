@@ -29,8 +29,9 @@
     [itemBtn setTintColor:[UIColor whiteColor]];
     [itemBtn setBackgroundColor:[UIColor redColor]];
     
-    //uibarbuttonitem에 집어 넣는다는 말
+    //uibarbuttonitem에 집어 넣는다는 말, 커스텀
     UIBarButtonItem *citem = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
+    
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithTitle:@"hihi"
                                                             style:UIBarButtonItemStylePlain
                                                            target:self

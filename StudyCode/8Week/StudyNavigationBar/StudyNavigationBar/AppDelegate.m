@@ -16,23 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-//    UITabBarController *tap1 = (UITabBarController *)self.window.rootViewController;
-//    
-//    UITabBar *tapbar = tap1.tabBar;
-//    
-//    UITabBarItem *tapitem = [tapbar.items objectAtIndex:0];
-//    UITabBarItem *tapitem1 = [tapbar.items objectAtIndex:1];
-//    UITabBarItem *tapitem2 = [tapbar.items objectAtIndex:2];
-//    
-//    tapitem.title = @"tabitem";
-//    tapitem1.title = @"tabitem1";
-//    tapitem2.title = @"tabitem2";
-//    
-//    [tapitem setImage:[UIImage imageNamed:@"캐릭터_어피치"]];
-//    [tapitem1 setImage:[UIImage imageNamed:@"캐릭터_png"]];
-//    [tapitem2 setImage:[UIImage imageNamed:@"캐릭터_png 2"]];
-    
+
     return YES;
 }
 

@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //애니메이션
     [self setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 }
@@ -38,8 +39,6 @@
     //네비게이션으로 화면이동
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-
 
 /*
 #pragma mark - Navigation
