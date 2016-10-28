@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () 
 
 @property UIImagePickerController *image1;
 @property UIImagePickerController *image2;
@@ -25,6 +25,9 @@
     [mainimage setImage:[UIImage imageNamed:@"원피스"]];
     [mainimage setUserInteractionEnabled:YES];
     [self.view addSubview:mainimage];
+    
+    self.imageview = [[UIImageView alloc]initWithFrame:mainimage.bounds];
+    [mainimage addSubview:self.imageview];
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(touchesForView:)];
     [mainimage addGestureRecognizer:tap];
@@ -98,7 +101,7 @@
         self.imageview.image = image;
         [self.imageview setContentMode:UIViewContentModeScaleToFill];
     }
-    [[picker parentViewController] dismissViewControllerAnimated:YES completion:nil];
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -106,10 +109,6 @@
 {
     [[picker parentViewController] dismissViewControllerAnimated:YES completion:nil];
 }
-
-
-
-
 
 
 - (void)didReceiveMemoryWarning {

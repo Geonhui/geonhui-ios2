@@ -1,38 +1,34 @@
 //
 //  AppDelegate.m
-//  ScreenComplex
+//  StateRestoration
 //
-//  Created by geon hui kim on 2016. 10. 26..
+//  Created by geon hui kim on 2016. 10. 28..
 //  Copyright © 2016년 geon hui kim. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "ViewController1.h"
-#import "ViewController2.h"
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    return YES;
-}
-
 - (BOOL)application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder
 {
-    NSLog(@"should save");
     return YES;
 }
 
 - (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
 {
-    NSLog(@"should restore");
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    return YES;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

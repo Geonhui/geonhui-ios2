@@ -9,7 +9,7 @@
         <!--Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="skinview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -45,7 +45,7 @@
         <!--Screen3-->
         <scene sceneID="Lu9-FF-XZ4">
             <objects>
-                <viewController id="oa9-wl-pPD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="orangeview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oa9-wl-pPD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MKd-kZ-DlQ"/>
                         <viewControllerLayoutGuide type="bottom" id="fFR-Ge-Cnc"/>
@@ -75,7 +75,7 @@
         <!--Screen2-->
         <scene sceneID="JOB-Be-h8z">
             <objects>
-                <viewController id="7Ie-1z-S5W" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="aquaview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7Ie-1z-S5W" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JYb-Ws-7Rp"/>
                         <viewControllerLayoutGuide type="bottom" id="rg9-FK-NBx"/>
@@ -111,7 +111,7 @@
         <!--Screen4-->
         <scene sceneID="VFH-CK-jUp">
             <objects>
-                <viewController id="JBr-iY-MsO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pinkview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JBr-iY-MsO" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Am7-ck-EXl"/>
                         <viewControllerLayoutGuide type="bottom" id="njq-LN-Uco"/>
@@ -141,7 +141,7 @@
         <!--Screen1-->
         <scene sceneID="9QA-N3-HZb">
             <objects>
-                <viewController id="zZs-V7-yrc" customClass="ViewController1" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pupleview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zZs-V7-yrc" customClass="ViewController1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mva-af-gGv"/>
                         <viewControllerLayoutGuide type="bottom" id="7GL-ns-8o6"/>
@@ -177,7 +177,7 @@
         <!--View Controller2-->
         <scene sceneID="mct-w4-ice">
             <objects>
-                <viewController id="cDS-xe-0LQ" customClass="ViewController2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="greenview" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cDS-xe-0LQ" customClass="ViewController2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YwE-T9-U7p"/>
                         <viewControllerLayoutGuide type="bottom" id="s7h-Uo-N4b"/>
@@ -207,9 +207,10 @@
         <!--Tab Bar Controller-->
         <scene sceneID="wg3-Vy-CQT">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zCr-KA-0Yn" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tap" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zCr-KA-0Yn" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Uov-AJ-FN1">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -221,12 +222,28 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pd8-6W-LLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-415" y="63"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qUp-iT-3fD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3ZA-7S-36o" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="WUM-rd-GMa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HSz-15-e4X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yb5-yK-PXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770" y="883"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="E8f-4Y-Ny6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zkS-ml-bDa" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navi1" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zkS-ml-bDa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="more" id="v6C-KK-7SB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SAZ-k1-tCE">
@@ -245,7 +262,7 @@
         <!--Navigation Controller-->
         <scene sceneID="9ta-6b-fjd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WPU-1S-rAy" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navi2" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WPU-1S-rAy" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" systemItem="recents" id="LmM-0A-dOT"/>
                     <toolbarItems/>
