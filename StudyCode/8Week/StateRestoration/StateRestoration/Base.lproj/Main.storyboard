@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ar1-0o-hcs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ar1-0o-hcs">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -29,6 +29,9 @@
                         <color key="backgroundColor" red="0.11900656670331955" green="0.89086121320724487" blue="0.94314092397689819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZU8-4s-7Rs"/>
+                    <connections>
+                        <outlet property="aquaTextField" destination="N6F-5B-ndz" id="xfr-We-3ab"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,6 +43,7 @@
                 <tabBarController storyboardIdentifier="tap" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ar1-0o-hcs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="2lI-zi-5if">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -75,7 +79,7 @@
         <!--View Controller-->
         <scene sceneID="N3q-gZ-hnI">
             <objects>
-                <viewController storyboardIdentifier="orange" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZQA-ZL-uSF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="orange" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZQA-ZL-uSF" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IgW-JC-HjZ"/>
                         <viewControllerLayoutGuide type="bottom" id="TdJ-Nl-6Lz"/>
@@ -95,6 +99,9 @@
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kfb-0u-ida"/>
+                    <connections>
+                        <outlet property="orangeTextField" destination="Uc4-Ww-gDQ" id="xFg-SR-FkD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNf-bD-TeP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +110,7 @@
         <!--View Controller-->
         <scene sceneID="E7B-de-pIi">
             <objects>
-                <viewController storyboardIdentifier="pink" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nxP-hy-pfG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="pink" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nxP-hy-pfG" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iI3-fL-VdC"/>
                         <viewControllerLayoutGuide type="bottom" id="z0Y-fc-6Vr"/>
@@ -123,6 +130,9 @@
                         <color key="backgroundColor" red="0.89177244901657104" green="0.56605112552642822" blue="0.91746717691421509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="9YY-xG-6jy"/>
+                    <connections>
+                        <outlet property="pinkTextField" destination="GcR-3Y-ckF" id="sMT-Bt-ZPP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubt-2h-rby" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
