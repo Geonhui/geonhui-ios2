@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    //스토리보드의 Main을 stroryboard로 가져온다.
     UIStoryboard *stroryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
     //스토리보드 아이디를 꼭 적어줘야 한다.
@@ -29,8 +29,12 @@
    
     ViewControllerWithXib *vcxib = [[ViewControllerWithXib alloc]initWithNibName:@"ViewControllerWithXib" bundle:nil];
     
+    //네비게이션 컨트롤러 객체인 navi를 생성하고 뿌리가 되는 뷰를 vcxib뷰로 지정한다.
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vcxib];
     
+    //window 객체를 만들고 그 크기는 nsobject를 상속받은 uiscreen을 지정해준다. bounds는 화면전체사이즈를 가져온다는 말이다.
+    //window의 뿌리컨트롤러를 navi변수(vcxib화면)를 지정한다.
+    //window를 호출하기 위해서는 열쇠가 필요하다.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];

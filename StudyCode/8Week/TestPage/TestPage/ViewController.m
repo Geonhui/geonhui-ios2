@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //커스텀 버튼
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
     [button1 addTarget:self action:@selector(touchin:) forControlEvents:UIControlEventTouchUpInside];

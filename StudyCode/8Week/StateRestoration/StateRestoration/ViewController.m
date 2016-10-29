@@ -8,15 +8,18 @@
 
 #import "ViewController.h"
 
-static NSString *textFieldText = @"textFieldText";
+//textFieldText란 객체를 전역변수로 만듬, 프로그램이 종료될때까지 없어지지않음
+static NSString *UserInputText = @"UserInputText";
 
 @interface ViewController ()
 
+//텍스트필드 객체 >> 스토리보드와 연결
 @property (weak, nonatomic) IBOutlet UITextField *aquaTextField;
 @property (weak, nonatomic) IBOutlet UITextField *orangeTextField;
 @property (weak, nonatomic) IBOutlet UITextField *pinkTextField;
 
-@property NSString *textFieldText;
+//스트링 객체
+@property NSString *userInputText;
 
 @end
 
@@ -27,12 +30,22 @@ static NSString *textFieldText = @"textFieldText";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//뷰가 나타날때!
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if (self.userInputText != nil) {
+        self.orangeTextField.text = self.userInputText;
+        self.userInputText = nil;
+    }
+}
+
 //인코딩
 - (void)encodeRestorableStateWithCoder:(NSCoder *)coder
 {
     [super encodeRestorableStateWithCoder:coder];
     
-    [coder encodeObject:self.orangeTextField.text forKey:textFieldText];
+    [coder encodeObject:self.orangeTextField.text forKey:UserInputText];
 }
 
 //디코딩
@@ -40,8 +53,8 @@ static NSString *textFieldText = @"textFieldText";
 {
     [super decodeRestorableStateWithCoder:coder];
     
-    NSString *text = [coder decodeObjectForKey:self.textFieldText];
-    self.textFieldText = text;
+    NSString *text = [coder decodeObjectForKey:UserInputText];
+    self.userInputText = text;
 }
 
 - (void)didReceiveMemoryWarning {
