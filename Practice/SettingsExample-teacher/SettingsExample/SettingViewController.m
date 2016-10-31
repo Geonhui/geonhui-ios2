@@ -76,16 +76,12 @@ NS_ENUM(NSInteger) {
 
 - (IBAction)clickSaveButton:(id)sender {
     
-    if ([self previewLabel] == nil ||
-        [[self previewLabel] font] == nil ||
-        [[self previewLabel] textColor] == nil) {
+    if ([self previewLabel] == nil || [[self previewLabel] font] == nil || [[self previewLabel]textColor] == nil) {
         return;
     }
     
-    NSDictionary *userInfo = @{
-                               UserInfoKeyLabelFont : self.previewLabel.font,
-                               UserInfoKeyLabelTextColor : self.previewLabel.textColor
-                               };
+    NSDictionary *userInfo = @{UserInfoKeyLabelFont : self.previewLabel.font,
+                               UserInfoKeyLabelTextColor : self.previewLabel.textColor};
     
     [[NSNotificationCenter defaultCenter] postNotificationName:DidChangeSettingNotification
                                                         object:self
