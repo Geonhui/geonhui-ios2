@@ -36,7 +36,7 @@
     ViewController2 *vc2 = [stroryboard instantiateViewControllerWithIdentifier:@"ViewController2"];
 
     //화면전환 애니메이션
-    //[vc2 setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+    [vc2 setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
     
     //precent 전환
     //[self presentViewController:vc2 animated:YES completion:nil];

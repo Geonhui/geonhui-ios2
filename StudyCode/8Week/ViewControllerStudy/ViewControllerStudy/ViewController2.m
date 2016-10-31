@@ -49,6 +49,12 @@
     NSLog(@"view will disappear : vc2");
 }
 
+
+
+
+
+
+
 //xib에서 vc2화면으로 화면전환
 - (IBAction)touchoninsidebutton:(id)sender
 {

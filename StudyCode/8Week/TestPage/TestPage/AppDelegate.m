@@ -20,12 +20,12 @@
     //Main이라는 스토리보드를 가져옴
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
+    //스토리보드 id가 viewcontroller인 스토리보드를 vc1으로 가져옴
+    UIViewController *vc1 = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    
     //uiviewcontroller객체 생성
     //UIViewController *vc1 = [[UIViewController alloc]initWithNibName:@"ViewController" bundle:nil];
     //UIViewController *vc2 = [[UIViewController alloc]initWithNibName:@"ViewController2" bundle:nil];
-    
-    //스토리보드 id가 viewcontroller인 스토리보드를 vc1으로 가져옴
-    UIViewController *vc1 = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
     
     //네비게이션 객체 생성, rootviewcontroller를 지정
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc1];
