@@ -11,10 +11,11 @@
 
 #import <UIKit/UIKit.h>
 
+//
 static const NSNotificationName DidChangeSettingNotification = @"DidChangeSetting";
 
+//
 static const NSString *UserInfoKeyLabelTextColor = @"label_text_color";
 static const NSString *UserInfoKeyLabelFont = @"label_font";
-
 
 #endif /* PrefixHeader_pch */

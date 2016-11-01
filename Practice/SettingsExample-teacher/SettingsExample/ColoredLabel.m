@@ -31,7 +31,6 @@
         [self setTextColor:color];
         [self setFont:font];
     }
-    
 }
 
 - (void)dealloc {
