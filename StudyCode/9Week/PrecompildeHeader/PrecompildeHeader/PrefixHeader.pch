@@ -13,7 +13,9 @@
 //pch에 정의해 놓은 코드들은 어느 m파일에서나 바로 사용할수있다.
 
 #import "MySingleturn.h"
+
 static NSString *const MyName = @"geonhui";
+
 static const NSInteger MaxStudentConst = 30;
 
 // Include any system framework and library headers here that should be included in all compilation units.
