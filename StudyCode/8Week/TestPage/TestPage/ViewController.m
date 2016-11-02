@@ -19,29 +19,29 @@
     [super viewDidLoad];
     
     //커스텀 버튼
-    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button1 addTarget:self action:@selector(touchin:) forControlEvents:UIControlEventTouchUpInside];
-    [button1 setFrame:CGRectMake(0, 0, 100, 44)];
-    [button1 setTitle:@"Next" forState:UIControlStateNormal];
-    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [button1 addTarget:self action:@selector(touchin:) forControlEvents:UIControlEventTouchUpInside];
+//    [button1 setFrame:CGRectMake(0, 0, 100, 44)];
+//    [button1 setTitle:@"Next" forState:UIControlStateNormal];
+//    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     
     //라벨
-    UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 44)];
-    [label1 setText:@"main"];
-    [label1 setTextAlignment:NSTextAlignmentCenter];
-    [label1 setTextColor:[UIColor orangeColor]];
+//    UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 44)];
+//    [label1 setText:@"main"];
+//    [label1 setTextAlignment:NSTextAlignmentCenter];
+//    [label1 setTextColor:[UIColor orangeColor]];
     
     //기존 바버튼 아이템
-    UIBarButtonItem *bar1 = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemUndo
-                                                                         target:self
-                                                                         action:@selector(touchonback:)];
+//    UIBarButtonItem *bar1 = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemUndo
+//                                                                         target:self
+//                                                                         action:@selector(touchonback:)];
     //커스텀으로 만든 바버튼 아이템
-    UIBarButtonItem *bar2 = [[UIBarButtonItem alloc]initWithCustomView:button1];
+//    UIBarButtonItem *bar2 = [[UIBarButtonItem alloc]initWithCustomView:button1];
     
     //네비게이션아이템은 left, right, title 3가지가 있다
-    self.navigationItem.titleView = label1;
-    self.navigationItem.leftBarButtonItem = bar1;
-    self.navigationItem.rightBarButtonItem = bar2;
+//    self.navigationItem.titleView = label1;
+//    self.navigationItem.leftBarButtonItem = bar1;
+//    self.navigationItem.rightBarButtonItem = bar2;
     
     //애니메이션
     [self setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
