@@ -94,6 +94,7 @@ NS_ENUM(NSInteger) {
         return;
     }
     
+    //
     NSDictionary *userInfo = @{UserInfoKeyLabelFont : self.previewLabel.font,
                                UserInfoKeyLabelTextColor : self.previewLabel.textColor};
     
@@ -102,6 +103,7 @@ NS_ENUM(NSInteger) {
                                                         object:self
                                                       userInfo:userInfo];
  
+    //pop은 넣어준다.
     [self.navigationController popViewControllerAnimated:YES];
 }
 
