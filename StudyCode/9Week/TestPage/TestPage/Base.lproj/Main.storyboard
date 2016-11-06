@@ -152,6 +152,7 @@
                     </view>
                     <connections>
                         <outlet property="changethelabel" destination="Mhf-Pu-m9F" id="isi-bC-eaR"/>
+                        <outlet property="imageview3" destination="hvV-Qs-sAZ" id="ogT-0d-G8u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FIg-oi-ykx" userLabel="First Responder" sceneMemberID="firstResponder"/>

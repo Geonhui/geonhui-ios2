@@ -26,6 +26,7 @@
     return datacenter;
 }
 
+//가입데이터
 - (BOOL)joinUserID:(NSString *)userID userPW:(NSString *)userPW
 {
 

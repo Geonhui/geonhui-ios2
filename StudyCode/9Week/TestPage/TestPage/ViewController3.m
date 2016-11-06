@@ -14,6 +14,7 @@
 <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UILabel *changethelabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageview3;
 
 @end
 
@@ -24,6 +25,11 @@
     
     //아이디에 따른 라벨 변경
     self.changethelabel.text = [NSString stringWithFormat:@"user id : %@",[[NSUserDefaults standardUserDefaults] objectForKey:@"id"]];
+    
+    UITableView *table = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+    [table setDelegate:self];
+    [table setDataSource:self];
+    [self.imageview3 addSubview:table];
     
 }
 

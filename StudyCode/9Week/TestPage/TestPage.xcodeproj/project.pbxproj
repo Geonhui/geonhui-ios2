@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB9219171DBDF4A1006BACD6 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9219161DBDF4A1006BACD6 /* ViewController2.m */; };
+		BB92AE5B1DCB072300FFACED /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB92AE5A1DCB072300FFACED /* Property List.plist */; };
 		BB9C71A41DC983CA0078F941 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9C71A31DC983CA0078F941 /* ViewController3.m */; };
 		BB9C71A91DC9908E0078F941 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9C71A81DC9908E0078F941 /* DataCenter.m */; };
 		BBDFF5301DBD9DDC002C5393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFF52F1DBD9DDC002C5393 /* main.m */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		BB9219151DBDF4A1006BACD6 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		BB9219161DBDF4A1006BACD6 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		BB92AE5A1DCB072300FFACED /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		BB9C71A21DC983CA0078F941 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		BB9C71A31DC983CA0078F941 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		BB9C71A61DC98E380078F941 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				BB9C71A31DC983CA0078F941 /* ViewController3.m */,
 				BB9C71A71DC9908E0078F941 /* DataCenter.h */,
 				BB9C71A81DC9908E0078F941 /* DataCenter.m */,
+				BB92AE5A1DCB072300FFACED /* Property List.plist */,
 				BBDFF5371DBD9DDC002C5393 /* Main.storyboard */,
 				BBDFF53A1DBD9DDC002C5393 /* Assets.xcassets */,
 				BBDFF5451DBDA537002C5393 /* 10월24일.jpg */,
@@ -160,6 +163,7 @@
 				BBDFF5461DBDA537002C5393 /* 10월24일.jpg in Resources */,
 				BBDFF53E1DBD9DDC002C5393 /* LaunchScreen.storyboard in Resources */,
 				BBDFF53B1DBD9DDC002C5393 /* Assets.xcassets in Resources */,
+				BB92AE5B1DCB072300FFACED /* Property List.plist in Resources */,
 				BBDFF5391DBD9DDC002C5393 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
