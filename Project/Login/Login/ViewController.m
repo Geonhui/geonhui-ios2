@@ -13,8 +13,6 @@
 @property UIScrollView *mainScroll;
 @property UITextField *idText;
 @property UITextField *pwText;
-//@property UIButton *loginbt;
-//@property UIButton *pwbt;
 
 @end
 
