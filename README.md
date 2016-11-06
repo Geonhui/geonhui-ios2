@@ -61,6 +61,20 @@
 * 10월 27일 - Alert Controller, Action Sheet, Image Picker
 * 10월 28일 - User Defaults, User Defaults를 이용한 사진 저장 및 불러오기 실습
 
+#### 9 Week
+* 10월 31일 - NSNotification - 키보드 노티피케이션 받아보기, NSNotificationCenter - 커스텀 노티피케이션 발송해보기				
+* 11월 1일 - 열거형, 매크로, 상수, 로그인 페이지 만들어보기			
+* 11월 2일 - 로그인 페이지 만들어보기, 화면전환, Delegate, Notification, Alert, UserDefault사용하여
+* 11월 3일 - 복습
+* 11월 4일 - Singleton / Plist	
+
+#### 10 Week
+* 11월 7일 - Property &ARC
+* 11월 8일 - Property &ARC	
+* 11월 9일 - 복습
+* 11월 10일 - Thread&Block, Thread&Block 실습 				
+* 11월 11일 - Operation Queue, GCD
+
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
