@@ -69,8 +69,8 @@
 * 11월 4일 - Singleton / Plist	
 
 #### 10 Week
-* 11월 7일 - Property &ARC
-* 11월 8일 - Property &ARC	
+* 11월 7일 - [Property] & [ARC1], [Key Value Observing]
+* 11월 8일 - Property & [ARC2]	
 * 11월 9일 - 복습
 * 11월 10일 - Thread&Block, Thread&Block 실습 				
 * 11월 11일 - Operation Queue, GCD
@@ -102,6 +102,10 @@
 * [맛집] - 근처맛집
 * [프로토타이핑] - Oven tool
 
+   [Key Value Observing]: <https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html>
+   [ARC2]: <https://soulpark.wordpress.com/2013/07/25/ios-arc-from-top-developer/>
+   [ARC1]: <http://j2enty.tistory.com/entry/iOS-ARCAutomatic-Reference-Counting-1>
+   [Property]: <http://10apps.tistory.com/14>
    [휴먼인터페이스 가이드라인]: <http://www.slideshare.net/stevenbrown374/ios-hig-40409821>
    [프로토타이핑]: <https://ovenapp.io>
    [Auto Layout]: <https://goo.gl/yX2NdF>
