@@ -17,24 +17,31 @@
 <UIApplicationDelegate>
 
 //각 패별로 tag값 받기
+//땡별로 첫번째와 두번째 패값 받기
 @property NSInteger firstNumber;
 @property NSInteger secondNumber;
 
+//일삼광땡
 @property NSInteger oneAndthree;
 @property NSInteger threeAndOne;
 
+//일팔광땡
 @property NSInteger oneAndpal;
 @property NSInteger palAndone;
 
+//삼팔광땡
 @property NSInteger threeAndpal;
 @property NSInteger palAndthree;
 
+//암행어사
 @property NSInteger fourAndSeven;
 @property NSInteger sevenAndFour;
 
+//사구파토
 @property NSInteger fourAndNine;
 @property NSInteger nineAndFour;
 
+//땡잡이
 @property NSInteger threeAndSeven;
 @property NSInteger sevenAndThree;
 
@@ -80,15 +87,16 @@
 //BOOL isSelected = sender.selected;
 //sender.selected = !isSelected;
 
-//self.one1.selected = !self.one1.selected;
-
 //카드버튼
+//한 메서드에 버튼을 다 모음
 - (IBAction)buttonAction:(UIButton *)sender
 {
     //셀렉트를 NO로 지정
     BOOL isReSelec = NO;
+//    sender.selected = !sender.selected; 위와 같음
     
     //중복 선택 검사
+    //for문에 시작점을 생성함
     for (UIButton *selectedBtn in self.selectedBtnList)
     {
         if (selectedBtn.tag == sender.tag)
@@ -271,6 +279,7 @@
             self.threeAndSeven = 0;
             self.sevenAndThree = 0;
             
+            //결과 확인 후 재선택을 위해 첫화면을 불러옴
             UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
             ViewController *view1 = [storyBoard instantiateViewControllerWithIdentifier:@"View1"];
             AppDelegate *appDelegate =(AppDelegate *)[UIApplication sharedApplication].delegate;
