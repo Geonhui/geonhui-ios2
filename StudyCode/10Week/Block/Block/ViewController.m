@@ -84,7 +84,8 @@ typedef void (^plus)(void);
     [UIView setAnimationDuration:3];
     [UIView setAnimationRepeatCount:3];
     
-    [self.testlabel setFrame:CGRectMake(100, 300, self.testlabel.bounds.size.width, self.testlabel.bounds.size.height)];
+    [self.testlabel setFrame:CGRectMake(100, 300, self.testlabel.bounds.size.width,
+                                                  self.testlabel.bounds.size.height)];
     [self.testlabel setAlpha:0.5];
     
     [UIView commitAnimations];
@@ -95,7 +96,8 @@ typedef void (^plus)(void);
     //block사용 애니메이션
     //블럭내에서는 reperence count를 올려주기만 하고 내려주진 않기때문에 위의 self를 weak으로 지정해준다.
     void (^ani)(void) = ^{
-      [wself.testlabel setFrame:CGRectMake(100, 300, self.testlabel.bounds.size.width, self.testlabel.bounds.size.height)];
+      [wself.testlabel setFrame:CGRectMake(100, 300, self.testlabel.bounds.size.width,
+                                                     self.testlabel.bounds.size.height)];
     };
     
     //위의 block을 ani에 해주어도 된다.
