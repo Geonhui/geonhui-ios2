@@ -75,6 +75,13 @@
 * 11월 10일 - Thread&Block, Thread&Block 실습 				
 * 11월 11일 - Operation Queue, GCD
 
+#### 11 Week
+* 11월 14일 - 네트워크(URL, URI, REST, JSON, IOS NETWORK)
+* 11월 15일 - 네트워크 실습
+* 11월 16일 - 네트워크 실습
+* 11월 17일 - 복습
+* 11월 18일 - cocoa pod, AF NETWORK
+
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
