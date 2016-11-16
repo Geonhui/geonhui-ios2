@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //배열(테이블뷰) > 딕셔너리(헤더) > 배열(셀)
     self.information = @[@{@"title":@"자동차",@"name":@[@"마칸",@"레인지로버",@"미니쿠퍼"],
                                             @"detail":@[@"포르쉐",@"랜드로버",@"미니"],
