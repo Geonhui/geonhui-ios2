@@ -9,6 +9,7 @@
 #import "UserInformation.h"
 
 @implementation UserInformation
+//싱글턴 객체 생성
 + (instancetype)sharedUserInfo {
     
     static UserInformation *object = nil;
@@ -17,7 +18,7 @@
     dispatch_once(&onceToken, ^{
         object = [[UserInformation alloc] init];
     });
-    
     return object;
 }
+
 @end

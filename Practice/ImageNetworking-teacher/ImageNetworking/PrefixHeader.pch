@@ -8,17 +8,16 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
+//프리픽스
 #import "UserInformation.h"
 #import "RequestObject.h"
-
+//
 static NSString *const ImageListUpdatedNotification = @"ImageListUpdated";
 static NSString *const ImageListUpdateFailNotification = @"ImageListUpdateFail";
 static NSString *const ImageUploadDidSuccessNotification = @"ImageUploadSuccess";
 static NSString *const ImageUploadDidFailNotification = @"ImageUploadFail";
-
 static NSString *const ImageDeleteDidFailNotification = @"ImageDeleteFail";
-
+//
 static NSString *JSONTitleKey = @"title";
 static NSString *JSONTumbnailURLKey = @"thumbnail_url";
 static NSString *JSONImageURLKey = @"image_url";

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ImageViewController : UIViewController
-
+//이미지 데이터를 받을 딕셔너리
 @property (nonatomic, strong) NSDictionary *imageInfo;
 
 @end

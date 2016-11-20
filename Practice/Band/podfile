@@ -1,0 +1,22 @@
+
+platform: ios
+# Please enter the commit message for your changes. Lines starting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pod 'DynamicButton', '~> 3.1'

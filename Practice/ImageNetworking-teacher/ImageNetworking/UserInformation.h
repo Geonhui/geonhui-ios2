@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface UserInformation : NSObject
-
+//프로퍼티로 지정해서 데이터를 setter, getter로 이용
 @property NSString *userId;
 @property NSArray *imageInfoJSONArray;
-
+//싱글턴
 + (instancetype)sharedUserInfo;
 
 @end
