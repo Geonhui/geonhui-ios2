@@ -184,6 +184,12 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"displayImage" object:nil];
+}
+
+
 //셀을 에디트 하겟다.
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -198,6 +204,7 @@
         //[tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
         
         //서버에 삭제를 요청하기, 과제
+        
         
         
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {

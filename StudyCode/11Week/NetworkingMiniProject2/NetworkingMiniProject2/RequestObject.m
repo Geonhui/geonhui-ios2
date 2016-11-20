@@ -10,6 +10,7 @@
 
 @implementation RequestObject
 
+//서버의 이미지 가져오기
 + (void)requestImageList
 {
     //저장된 유저 아이디를 가져온다
@@ -64,7 +65,7 @@
     [dataTask resume];
 }
 
-//upload
+//서버에 이미지 업로드 시키기
 + (void)requestUploadImage:(UIImage *)image title:(NSString *)title
 {
     //요청할 주소

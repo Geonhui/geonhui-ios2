@@ -10,7 +10,7 @@
 
 @interface ImageViewController ()
 
-@property IBOutlet UIImageView *image;
+@property (nonatomic) IBOutlet UIImageView *loadimage;
 
 @end
 
@@ -19,8 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setLoadimage:) name:@"displayImage" object:nil];
     
 }
+
+- (void)setLoadimage:(UIImageView *)loadimage
+{
+    self.loadimage.image = loadimage.image;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
