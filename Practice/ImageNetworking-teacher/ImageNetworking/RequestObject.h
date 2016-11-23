@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface RequestObject : NSObject
-
+//요청이미지 리스트
 + (void)requestImageList;
+//업로드 이미지
 + (void)requestUploadImage:(UIImage *)image title:(NSString *)title originImageId:(NSString *)imageId;
+//삭제 이미지
 + (void)requestDeleteImage:(NSString *)imageId;
 
 @end

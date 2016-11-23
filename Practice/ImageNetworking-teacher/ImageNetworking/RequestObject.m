@@ -7,26 +7,26 @@
 //
 
 #import "RequestObject.h"
-
+//요청타입
 typedef NS_ENUM(NSInteger, RequestType) {
     RequestTypeImageList,
     RequestTypeUploadImage,
     RequestTypeDeleteImage
 };
-
+//url주소 지정
 static NSString *const baseURLString = @"http://iosschool.yagom.net:8080/";
-
+//유저아이디, 이미지타이틀, 이미지데이터, 이미지아이디, json리스트, json결과
 static NSString *ParamNameUserIDKey = @"user_id";
 static NSString *ParamNameImageTitleKey = @"title";
 static NSString *ParamNameImageDataKey = @"image_data";
 static NSString *ParamNameImageIdKey = @"image_id";
 static NSString *JSONContentKey = @"list";
 static NSString *JSONResultKey = @"result";
-
+//json성공값
 static NSString *JSONSuccessValue = @"success";
 
 @implementation RequestObject
-
+//
 + (NSURL *)requestURL:(RequestType)type param:(NSDictionary *)paramDic {
     
     NSMutableString *urlString = [baseURLString mutableCopy];
