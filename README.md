@@ -82,6 +82,13 @@
 * 11월 17일 - 복습
 * 11월 18일 - cocoa pod, AF NETWORK
 
+#### 12 Week
+* 11월 21일 - Custom TableView	
+* 11월 22일 - Custom TableView	
+* 11월 23일 - 복습
+* 11월 24일 - 기기 테스트, Mapview
+* 11월 25일 - Xcode 프로젝트 설정 테크닉, 버전 분기 / 기타 응용 테크닉	
+
 ### 마크다운 참조
 * [마크다운] - 마크다운 수정
 * [마크다운한글참조] - 명령어 모음
@@ -99,7 +106,10 @@
 * [프로그래밍 패러다임]  , [객체지향 프로그래밍] , [객체지향 4대특징]
 
 ### IOS
+* [ios developer] - 개발자 홈페이지
+* [기기 테스트] - 앱 기기 테스트
 * [코딩 네이밍] - 네이밍 방법
+* [ios app icon] - 앱 아이콘
 * [형식지정자] - 형식지정자 모음
 * [퀵헬프] - mark up
 * [휴먼인터페이스 가이드라인] - ios human interface
@@ -109,6 +119,9 @@
 * [맛집] - 근처맛집
 * [프로토타이핑] - Oven tool
 
+   [ios developer]: <https://developer.apple.com/>
+   [기기 테스트]: <http://lab.anybuild.co.kr/page/basic_app2>
+   [ios app icon]: <http://icon.angrymarmot.org/index.html#61244f3c69224441a3b3>
    [Key Value Observing]: <https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html>
    [ARC2]: <https://soulpark.wordpress.com/2013/07/25/ios-arc-from-top-developer/>
    [ARC1]: <http://j2enty.tistory.com/entry/iOS-ARCAutomatic-Reference-Counting-1>
