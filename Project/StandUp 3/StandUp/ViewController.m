@@ -16,6 +16,7 @@
 //프로토콜 선언
 <UIApplicationDelegate>
 
+#pragma mark - card number property
 //각 패별로 tag값 받기
 //땡별로 첫번째와 두번째 패값 받기
 @property NSInteger firstNumber;
@@ -52,6 +53,7 @@
 
 @implementation ViewController
 
+#pragma initialize
 //초기화
 - (instancetype)init
 {
@@ -75,6 +77,7 @@
     return self;
 }
 
+#pragma mark - view did load
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -83,6 +86,7 @@
     
 }
 
+#pragma mark - button action
 //이해필요!!
 //BOOL isSelected = sender.selected;
 //sender.selected = !isSelected;
@@ -128,6 +132,7 @@
 //    }
 }
 
+#pragma mark - card collaboration
 //조합
 - (void)changeCardSelectedUI:(BOOL)isSelect btn:(UIButton *)sender
 {
@@ -141,22 +146,22 @@
                 self.firstNumber = 1;
                 self.oneAndpal = 1;
                 self.oneAndthree = 1;
-                NSLog(@"1땡 tag : %ld", sender.tag);
+//                NSLog(@"1땡 tag : %ld", sender.tag);
                 break;
                 
             case 111:
                 self.secondNumber = 1;
-                NSLog(@"1-1땡 tag : %ld", sender.tag);
+//                NSLog(@"1-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 102:
                 self.firstNumber = 2;
-                NSLog(@"2땡 tag : %ld", sender.tag);
+//                NSLog(@"2땡 tag : %ld", sender.tag);
                 break;
                 
             case 112:
                 self.secondNumber = 2;
-                NSLog(@"2-1땡 tag : %ld", sender.tag);
+//                NSLog(@"2-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 103:
@@ -164,89 +169,89 @@
                 self.threeAndpal = 3;
                 self.threeAndOne = 3;
                 self.threeAndSeven = 3;
-                NSLog(@"3땡 tag : %ld", sender.tag);
+//                NSLog(@"3땡 tag : %ld", sender.tag);
                 break;
                 
             case 113:
                 self.secondNumber = 3;
-                NSLog(@"3-1땡 tag : %ld", sender.tag);
+//                NSLog(@"3-1땡 tag : %ld", sender.tag);
                 break;
 
             case 104:
                 self.firstNumber = 4;
                 self.fourAndSeven = 4;
                 self.fourAndNine = 4;
-                NSLog(@"4땡 tag : %ld", sender.tag);
+//                NSLog(@"4땡 tag : %ld", sender.tag);
                 break;
                 
             case 114:
                 self.secondNumber = 4;
-                NSLog(@"4-1땡 tag : %ld", sender.tag);
+//                NSLog(@"4-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 105:
                 self.firstNumber = 5;
-                NSLog(@"5땡 tag : %ld", sender.tag);
+//                NSLog(@"5땡 tag : %ld", sender.tag);
                 break;
                 
             case 115:
                 self.secondNumber = 5;
-                NSLog(@"5-1땡 tag : %ld", sender.tag);
+//                NSLog(@"5-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 106:
                 self.firstNumber = 6;
-                NSLog(@"6땡 tag : %ld", sender.tag);
+//                NSLog(@"6땡 tag : %ld", sender.tag);
                 break;
                 
             case 116:
                 self.secondNumber = 6;
-                NSLog(@"6-1땡 tag : %ld", sender.tag);
+//                NSLog(@"6-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 107:
                 self.firstNumber = 7;
                 self.sevenAndFour = 7;
                 self.sevenAndThree = 7;
-                NSLog(@"7땡 tag : %ld", sender.tag);
+//                NSLog(@"7땡 tag : %ld", sender.tag);
                 break;
                 
             case 117:
                 self.secondNumber = 7;
-                NSLog(@"7-1땡 tag : %ld", sender.tag);
+//                NSLog(@"7-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 108:
                 self.firstNumber = 8;
                 self.palAndthree = 8;
                 self.palAndone = 8;
-                NSLog(@"8땡 tag : %ld", sender.tag);
+//                NSLog(@"8땡 tag : %ld", sender.tag);
                 break;
                 
             case 118:
                 self.secondNumber = 8;
-                NSLog(@"3-1땡 tag : %ld", sender.tag);
+//                NSLog(@"3-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 109:
                 self.firstNumber = 9;
                 self.nineAndFour = 9;
-                NSLog(@"9땡 tag : %ld", sender.tag);
+//                NSLog(@"9땡 tag : %ld", sender.tag);
                 break;
                 
             case 119:
                 self.secondNumber = 9;
-                NSLog(@"9-1땡 tag : %ld", sender.tag);
+//                NSLog(@"9-1땡 tag : %ld", sender.tag);
                 break;
                 
             case 110:
                 self.firstNumber = 10;
-                NSLog(@"10땡 tag : %ld", sender.tag);
+//                NSLog(@"10땡 tag : %ld", sender.tag);
                 break;
                 
             case 120:
                 self.secondNumber = 10;
-                NSLog(@"10-1땡 tag : %ld", sender.tag);
+//                NSLog(@"10-1땡 tag : %ld", sender.tag);
                 break;
                 
             default:
@@ -257,6 +262,7 @@
     }
 }
 
+#pragma mark - card destination
 //결과
 - (IBAction)finishPermit:(id)sender
 {
