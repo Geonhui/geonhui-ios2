@@ -12,6 +12,7 @@
 <UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate>
 
 @property NSMutableArray *mainCell;
+@property UITableView *mainTable;
 
 
 @end
@@ -21,10 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UITableView *mainTable = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
-    [mainTable setDelegate:self];
-    [mainTable setDataSource:self];
-    [self.view addSubview:mainTable];
+    self.mainTable = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+    [self.mainTable setDelegate:self];
+    [self.mainTable setDataSource:self];
+    [self.view addSubview:self.mainTable];
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                target:self
@@ -32,6 +33,7 @@
     [self.navigationItem setLeftBarButtonItem:addButton];
     
     self.mainCell = [[NSMutableArray alloc] init];
+    
 }
 
 //세션
@@ -46,12 +48,15 @@
     NSString *add = [NSString stringWithFormat:@"add"];
     [self.mainCell addObject:add];
     NSLog(@"array : %ld",self.mainCell.count);
+    
+    [self.mainTable reloadData];
 }
 
 //로우
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.mainCell.count;
+//    return 100;
 }
 
 //cell
@@ -64,14 +69,12 @@
     }
     
     if (indexPath.section == 0) {
-        //0부터 시작하는것을 1부터 시작하도록 수정해야함
-        //추가안됨 ;;
-//      cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
-        cell.textLabel.text = [self.mainCell objectAtIndex:indexPath.row];
+        //0부터 시작하는것을 1부터 시작하도록 수정해야함, 원래 row순서가 0부터 시작한다.
+        cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
         //cell 자체의 타입
         [cell setAccessoryType:UITableViewCellAccessoryCheckmark];
+        
     }
-    
     return cell;
 }
 
