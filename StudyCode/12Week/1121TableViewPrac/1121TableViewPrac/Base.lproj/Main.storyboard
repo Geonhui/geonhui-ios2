@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fk5-AN-NbW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wUx-2P-La8">
+            <objects>
+                <viewController id="fk5-AN-NbW" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5TN-FB-yaW"/>
+                        <viewControllerLayoutGuide type="bottom" id="8eP-Jz-HEe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IOH-vi-80Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMa-B5-mlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2001" y="-1216"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="gKI-Vb-Jdo">
+            <objects>
+                <viewController storyboardIdentifier="NextVC" id="A5l-6P-YGg" customClass="NextViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lCA-OC-Gzd"/>
+                        <viewControllerLayoutGuide type="bottom" id="aer-Eh-R6M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v8G-oq-hPY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="mUm-Vi-weI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="110" id="Ldt-ZA-qhs" customClass="NextViewCell">
+                                        <rect key="frame" x="0.0" y="1" width="375" height="110"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ldt-ZA-qhs" id="o3W-bQ-zS5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Qj-Bb-rzP" userLabel="thumnailImage">
+                                                    <rect key="frame" x="13" y="13" width="93" height="93.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="93" id="5iW-SP-IE2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff9-iL-XBr" userLabel="PersonalName">
+                                                    <rect key="frame" x="170" y="13" width="34.5" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="팀 명">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="NanumBrush"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-rI-BJZ">
+                                                    <rect key="frame" x="251" y="39" width="118" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="changedSliderValue:" destination="Ldt-ZA-qhs" eventType="valueChanged" id="maJ-MR-B9E"/>
+                                                    </connections>
+                                                </slider>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gg-Jp-QGy" userLabel="TeamTitle">
+                                                    <rect key="frame" x="165" y="64" width="39" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="가수명">
+                                                            <attributes>
+                                                                <font key="NSFont" size="15" name="NanumPen"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="1Qj-Bb-rzP" firstAttribute="bottom" secondItem="o3W-bQ-zS5" secondAttribute="bottomMargin" constant="5" id="ENi-Tx-Mgk"/>
+                                                <constraint firstItem="1Qj-Bb-rzP" firstAttribute="leading" secondItem="o3W-bQ-zS5" secondAttribute="leadingMargin" constant="5" id="FZP-9e-6dE"/>
+                                                <constraint firstItem="1Qj-Bb-rzP" firstAttribute="top" secondItem="o3W-bQ-zS5" secondAttribute="topMargin" constant="5" id="L25-CM-9DI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellImage" destination="1Qj-Bb-rzP" id="Sw2-U4-muQ"/>
+                                            <outlet property="imageAlphaSlider" destination="6kf-rI-BJZ" id="8aR-HC-PZx"/>
+                                            <outlet property="personalName" destination="4Gg-Jp-QGy" id="iL1-M5-pgC"/>
+                                            <outlet property="teamTitle" destination="ff9-iL-XBr" id="N6a-BP-a2F"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="A5l-6P-YGg" id="zDu-xX-GxQ"/>
+                                    <outlet property="delegate" destination="A5l-6P-YGg" id="gNK-wa-qNs"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="nextTable" destination="mUm-Vi-weI" id="2Ja-LS-4CJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIu-Qh-bqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-882.39999999999998" y="-1201.3493253373315"/>
+        </scene>
+    </scenes>
+</document>
