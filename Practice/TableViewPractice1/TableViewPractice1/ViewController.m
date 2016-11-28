@@ -34,6 +34,14 @@
     
     self.mainCell = [[NSMutableArray alloc] init];
     
+    //버전 확인
+    NSLog(@"%@", [[UIDevice currentDevice] systemVersion]);
+    NSLog(@"%@", [[NSProcessInfo processInfo] operatingSystemVersionString]);
+//    NSLog(@"%@", [[[NSProcessInfo processInfo] operatingSystemVersion.]);
+    
+    //애니메이션
+//    [self setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+    
 }
 
 //세션
@@ -42,12 +50,11 @@
     return 1;
 }
 
-//cell 추가
+//셀 추가
 - (void)addCell
 {
     NSString *add = [NSString stringWithFormat:@"add"];
     [self.mainCell addObject:add];
-    NSLog(@"array : %ld",self.mainCell.count);
     
     [self.mainTable reloadData];
 }
@@ -59,7 +66,7 @@
 //    return 100;
 }
 
-//cell
+//셀
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
@@ -69,6 +76,7 @@
     }
     
     if (indexPath.section == 0) {
+        
         //0부터 시작하는것을 1부터 시작하도록 수정해야함, 원래 row순서가 0부터 시작한다.
         cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
         //cell 자체의 타입
@@ -76,6 +84,15 @@
         
     }
     return cell;
+}
+
+//셀 선택
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *newView = [storyboard instantiateViewControllerWithIdentifier:@"NewViewController"];
+    
+    [self.navigationController pushViewController:newView animated:YES];
 }
 
 //셀높이

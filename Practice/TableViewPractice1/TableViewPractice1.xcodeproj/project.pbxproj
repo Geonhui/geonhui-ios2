@@ -13,6 +13,8 @@
 		BB1FEE5D1DE5CB8100DD4AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1FEE5B1DE5CB8100DD4AE0 /* Main.storyboard */; };
 		BB1FEE5F1DE5CB8100DD4AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1FEE5E1DE5CB8100DD4AE0 /* Assets.xcassets */; };
 		BB1FEE621DE5CB8100DD4AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1FEE601DE5CB8100DD4AE0 /* LaunchScreen.storyboard */; };
+		BB78C0A11DE7CBE700E4130B /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB78C0A01DE7CBE700E4130B /* NewViewController.m */; };
+		BB78C0A41DE7F24C00E4130B /* 조커2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB78C0A31DE7F24C00E4130B /* 조커2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		BB1FEE5E1DE5CB8100DD4AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1FEE611DE5CB8100DD4AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1FEE631DE5CB8100DD4AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB78C09F1DE7CBE700E4130B /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		BB78C0A01DE7CBE700E4130B /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		BB78C0A31DE7F24C00E4130B /* 조커2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "조커2.jpg"; path = "../../../../배경화면/조커2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +67,12 @@
 				BB1FEE561DE5CB8100DD4AE0 /* AppDelegate.m */,
 				BB1FEE581DE5CB8100DD4AE0 /* ViewController.h */,
 				BB1FEE591DE5CB8100DD4AE0 /* ViewController.m */,
+				BB78C09F1DE7CBE700E4130B /* NewViewController.h */,
+				BB78C0A01DE7CBE700E4130B /* NewViewController.m */,
 				BB1FEE5B1DE5CB8100DD4AE0 /* Main.storyboard */,
 				BB1FEE5E1DE5CB8100DD4AE0 /* Assets.xcassets */,
 				BB1FEE601DE5CB8100DD4AE0 /* LaunchScreen.storyboard */,
+				BB78C0A31DE7F24C00E4130B /* 조커2.jpg */,
 				BB1FEE631DE5CB8100DD4AE0 /* Info.plist */,
 				BB1FEE521DE5CB8100DD4AE0 /* Supporting Files */,
 			);
@@ -110,7 +118,13 @@
 				TargetAttributes = {
 					BB1FEE4E1DE5CB8100DD4AE0 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -140,6 +154,7 @@
 				BB1FEE621DE5CB8100DD4AE0 /* LaunchScreen.storyboard in Resources */,
 				BB1FEE5F1DE5CB8100DD4AE0 /* Assets.xcassets in Resources */,
 				BB1FEE5D1DE5CB8100DD4AE0 /* Main.storyboard in Resources */,
+				BB78C0A41DE7F24C00E4130B /* 조커2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +168,7 @@
 				BB1FEE5A1DE5CB8100DD4AE0 /* ViewController.m in Sources */,
 				BB1FEE571DE5CB8100DD4AE0 /* AppDelegate.m in Sources */,
 				BB1FEE541DE5CB8100DD4AE0 /* main.m in Sources */,
+				BB78C0A11DE7CBE700E4130B /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = TableViewPractice1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.TableViewPractice1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = TableViewPractice1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.TableViewPractice1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +329,7 @@
 				BB1FEE681DE5CB8100DD4AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
