@@ -276,6 +276,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
     //테이블뷰객체에 sender를 넣어준다.
     UITableViewCell *cell = sender;
     //인덱스패스 객체에 테이블뷰의 셀을 넣어준다.
