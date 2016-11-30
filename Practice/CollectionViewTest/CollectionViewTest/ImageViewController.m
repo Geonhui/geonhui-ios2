@@ -7,12 +7,14 @@
 //
 
 #import "ImageViewController.h"
+#import "ViewController.h"
+#import "DataCenter.h"
 
 @interface ImageViewController ()
 <UINavigationControllerDelegate>
 
-@property IBOutlet UIImageView *readImegeView;
-@property IBOutlet UILabel *storyLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *readImegeView;
+@property (weak, nonatomic) IBOutlet UILabel *storyLabel;
 
 @end
 
@@ -20,29 +22,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.imageInfo = [[NSMutableArray alloc] init];
-    //어레이로 셀의 순서를 받아야됨
-//    NSLog(@"%@", self.imageInfo[0][@"photoImage"]);
+
+//    self.storyLabel.text = [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"addName"]];
+//    self.storyLabel.text = [NSString stringWithUTF8String:[[NSUserDefaults standardUserDefaults] objectForKey:@"addName"]];
     
     
-    
-//    NSArray *imageData = [[NSArray alloc] init];
-//    [imageData objectAtIndex:self.imageInfo.count];
-    
-    //이미지뷰 접근
-//    [self.readImegeView setUserInteractionEnabled:YES];
+//    NSString *imagestory = [[NSUserDefaults standardUserDefaults] objectForKey:@"photoStory"];
 //    
-//    [self.readImegeView setImage:[[NSUserDefaults standardUserDefaults] objectForKey:@"photoImage"]];
-//    [self.readImegeView setContentMode:UIViewContentModeScaleToFill];
-//    [self.view addSubview:self.readImegeView];
+//    self.storyLabel.text = [NSString stringWithFormat:@"%@",imagestory];
 //    
-//    [self.storyLabel setText:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"photoStory"]]];
-//    [self.view addSubview:self.storyLabel];
+//    NSData *image = [[NSUserDefaults standardUserDefaults] objectForKey:@"photoImage"];
+//    
+//    self.readImegeView.image = [UIImage imageWithData:image];
     
+    //노티
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(viewWillAppear:)
+                                                 name:@"celldatasave"
+                                               object:self.imageData];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    NSLog(@"%@", self.imageInfo[0][@"photoImage"]);
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    NSData *nameData = [[NSUserDefaults standardUserDefaults] objectForKey:@"addName"];
+    NSString *nameString = [NSString stringWithFormat:@"%@", nameData];
+    
+    [self.storyLabel setText:nameString];
+    self.readImegeView.image = [UIImage imageWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"photoImage"]];
 }
 
 - (void)didReceiveMemoryWarning {

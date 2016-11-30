@@ -10,6 +10,6 @@
 
 @interface ImageViewController : UIViewController
 
-@property (nonatomic, strong) NSMutableArray *imageInfo;
+@property (nonatomic, strong) NSMutableArray *imageData;
 
 @end

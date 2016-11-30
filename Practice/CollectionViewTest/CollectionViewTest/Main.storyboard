@@ -100,7 +100,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="3nH-Mz-0w9"/>
                     <connections>
-                        <outlet property="readImegeView" destination="Q4b-KC-ueX" id="UmV-gK-Mnr"/>
+                        <outlet property="readImegeView" destination="Q4b-KC-ueX" id="aKy-rU-zVp"/>
                         <outlet property="storyLabel" destination="cDP-Js-q6A" id="8cG-A3-FYY"/>
                     </connections>
                 </viewController>
@@ -133,6 +133,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3EL-tu-Hav" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="CQx-O5-tom">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>

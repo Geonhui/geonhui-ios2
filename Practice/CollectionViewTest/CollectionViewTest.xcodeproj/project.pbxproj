@@ -12,6 +12,7 @@
 		BB29EC3E1DEC152E0082C187 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29EC3D1DEC152E0082C187 /* ViewController.m */; };
 		BB29EC431DEC152E0082C187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB29EC421DEC152E0082C187 /* Assets.xcassets */; };
 		BB29EC461DEC152E0082C187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB29EC441DEC152E0082C187 /* LaunchScreen.storyboard */; };
+		BB5B9A471DEDCA2900B90FB9 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5B9A461DEDCA2900B90FB9 /* DataCenter.m */; };
 		BBC49FB51DEC5E2C00EA5AA6 /* emu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FA81DEC5E2C00EA5AA6 /* emu.jpg */; };
 		BBC49FB61DEC5E2C00EA5AA6 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FA91DEC5E2C00EA5AA6 /* giraffe.jpg */; };
 		BBC49FB71DEC5E2C00EA5AA6 /* greater_rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FAA1DEC5E2C00EA5AA6 /* greater_rhea.jpg */; };
@@ -39,6 +40,8 @@
 		BB29EC421DEC152E0082C187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB29EC451DEC152E0082C187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB29EC471DEC152E0082C187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5B9A451DEDCA2900B90FB9 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		BB5B9A461DEDCA2900B90FB9 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
 		BBC49FA81DEC5E2C00EA5AA6 /* emu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emu.jpg; sourceTree = SOURCE_ROOT; };
 		BBC49FA91DEC5E2C00EA5AA6 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = SOURCE_ROOT; };
 		BBC49FAA1DEC5E2C00EA5AA6 /* greater_rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greater_rhea.jpg; sourceTree = SOURCE_ROOT; };
@@ -93,6 +96,8 @@
 				BB29EC3D1DEC152E0082C187 /* ViewController.m */,
 				BBC49FC21DEC9D5900EA5AA6 /* ImageViewController.h */,
 				BBC49FC31DEC9D5900EA5AA6 /* ImageViewController.m */,
+				BB5B9A451DEDCA2900B90FB9 /* DataCenter.h */,
+				BB5B9A461DEDCA2900B90FB9 /* DataCenter.m */,
 				BBC49FC71DED592700EA5AA6 /* Main.storyboard */,
 				BBC49FA71DEC5DBA00EA5AA6 /* image */,
 				BB29EC421DEC152E0082C187 /* Assets.xcassets */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB29EC3E1DEC152E0082C187 /* ViewController.m in Sources */,
+				BB5B9A471DEDCA2900B90FB9 /* DataCenter.m in Sources */,
 				BB29EC3B1DEC152E0082C187 /* AppDelegate.m in Sources */,
 				BBC49FC41DEC9D5900EA5AA6 /* ImageViewController.m in Sources */,
 				BB29EC381DEC152E0082C187 /* main.m in Sources */,

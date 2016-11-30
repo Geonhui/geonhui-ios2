@@ -8,9 +8,14 @@
 
 #import "ViewController.h"
 #import "ImageViewController.h"
+#import "DataCenter.h"
 
 @interface ViewController ()
-<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+<UICollectionViewDelegate,
+UICollectionViewDataSource,
+UICollectionViewDelegateFlowLayout,
+UIImagePickerControllerDelegate,
+UINavigationControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *mainview;
 
@@ -37,6 +42,11 @@
     
     //사진이미지, 이름, 내용 딕셔너리를 배열
     self.photoData = [[NSMutableArray alloc] init];
+    
+    
+    //싱글턴으로 데이터를 저장하였고 그데이터들을 어레이에 담아서 셀 갯수.카운트를 주어야 하는데 어레이에 담을 방법
+    //유저디폴트를 어레이나 딕셔너리로 뺄수있는방법
+    //사진읽기화면에 제일 마지막에 올린 이미지만 계속 나타남, 그전 사진들을 선택했을 경우에도 마지막사진이 나옴
 }
 
 #pragma mark - collection count
@@ -110,7 +120,10 @@
     
     cell.layer.borderColor = [UIColor orangeColor].CGColor;
     cell.layer.borderWidth = 3.0f;
-    
+  
+    //다음 뷰 컨트롤러 이미지 = cell.image
+    //노티 등록
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"celldatasave" object:self.photoData];
 }
 
 //셀을 다시 선택했을 경우
@@ -151,43 +164,51 @@
                                                              style:UIAlertActionStyleDefault
                                                            handler:^(UIAlertAction * _Nonnull action) {
 
-                                                               //user default
-                                                               NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
-                                                               
-                                                               //image, textfield
                                                                UIImage *photoImage = info[UIImagePickerControllerOriginalImage];
                                                                UITextField *photoName = name.textFields.firstObject;
                                                                UITextField *photoStory = name.textFields.lastObject;
+
+//                                                               [[DataCenter shardData] saveData:photoImage
+//                                                                                           name:photoName.text
+//                                                                                          story:photoStory.text];
+//
+//        NSLog(@"photo image : %@, photo name : %@, photo story : %@", photoImage, photoName.text, photoStory.text);
+                                                               
+                                                               
+//
+                                                               //user default
+                                                               NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+
+//                                                               //image, textfield
+                                                               NSData *imageData = UIImageJPEGRepresentation(photoImage, 1.0);
                                                                NSString *storyString = photoStory.text;
                                                                NSString *nameString = photoName.text;
-                                                               
-                                                               //변환
-                                                               NSData *imageData = UIImageJPEGRepresentation(photoImage, 1.0);
+//
+//                                                               //변환
                                                                NSData *nameData = [nameString dataUsingEncoding:NSUTF8StringEncoding];
                                                                NSData *storyData = [storyString dataUsingEncoding:NSUTF8StringEncoding];
-                                                               
-                                                               //저장
-                                                               //[user setObject:imageData forKey:@"photoImage"];
-                                                               //[user setObject:nameData forKey:@"addName"];
-                                                               //[user setObject:storyData forKey:@"photoStory"];
-                                                               
+//
+//                                                               //유저디폴트 저장
+                                                               [user setObject:imageData forKey:@"photoImage"];
+                                                               [user setObject:nameData forKey:@"addName"];
+                                                               [user setObject:storyData forKey:@"photoStory"];
+//
                                                                NSMutableDictionary *infoDic = [NSMutableDictionary new];
-                                                               
+//
                                                                [infoDic setObject:imageData forKey:@"photoImage"];
                                                                [infoDic setObject:nameData forKey:@"addName"];
                                                                [infoDic setObject:storyData forKey:@"photoStory"];
-                                                               
+//
 //                                                               [self.photoData addObject:user];
                                                                [self.photoData addObject:infoDic];
-                                                               [user setObject:self.photoData forKey:@"list"];
-                                                               
-//                                                               [infoDic setObject:photoImage forKey:@"photoImage"];
-//                                                               [infoDic setObject:photoName forKey:@"Name"];
-//                                                               [infoDic setObject:photoStory forKey:@"photoStory"];
-                                                               
+//                                                               [user setObject:self.photoData forKey:@"list"];
+//
+////                                                               [infoDic setObject:photoImage forKey:@"photoImage"];
+////                                                               [infoDic setObject:photoName forKey:@"Name"];
+////                                                               [infoDic setObject:photoStory forKey:@"photoStory"];
+                                                               [user synchronize];
                                                                [self.mainview reloadData];
 
-                                                               [user synchronize];
                                                            }];
         [name addAction:nameAction];
         
@@ -208,14 +229,14 @@
 //셀 선택했을 경우 현재 있는 데이터 전달
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    //셀의 태그값도 보내야함
-    UICollectionViewCell *cell = sender;
-    NSIndexPath *cellIndex = [self.mainview indexPathForCell:cell];
-    NSMutableArray *imageInfo = self.photoData[cellIndex.row];
-    
-    //
-    ImageViewController *nextController = segue.destinationViewController;
-    nextController.imageInfo = imageInfo;
+//    //셀의 태그값도 보내야함
+//    UICollectionViewCell *cell = sender;
+//    NSIndexPath *cellIndex = [self.mainview indexPathForCell:cell];
+//    NSDictionary *imageInfo = self.userdefult[cellIndex.row];
+////
+////    //
+//    ImageViewController *nextController = segue.destinationViewController;
+//    nextController.imageInfo = imageInfo;
 }
 
 
