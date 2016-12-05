@@ -35,7 +35,7 @@
     [self.mainScroll setContentSize:CGSizeMake(0, self.mainScroll.frame.size.height + 120)];  //컨텐츠사이즈를 지정해주어야 스크롤 범위가 지정이된다.
     self.mainScroll.scrollEnabled = YES; //스크롤을 사용할것인가
     self.mainScroll.backgroundColor = [UIColor clearColor]; //스크롤뷰의 배경색상
-    [self.view addSubview:self.mainScroll]; //뷰위에 스크롤 뷰 생성
+    [self.view addSubview:self.mainScroll]; //s뷰위에 스크롤 뷰 생성
     
     //귤이미지뷰
     //귤 이미지 뷰 객체 생성, 초기화, 사이즈지정
