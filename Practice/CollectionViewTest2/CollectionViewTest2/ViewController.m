@@ -10,8 +10,9 @@
 #import "CustomCell.h"
 #import "CollectionLayout.h"
 
-#define defaultMinRatio 6
-#define defaultMaxRatio 1.5
+//셀 비율
+#define defaultMinRatio 4
+#define defaultMaxRatio 0.8
 
 @interface ViewController ()
 
@@ -75,7 +76,7 @@
     return YES;//defult = no
 }
 
-#pragma mark - cell custom action
+#pragma mark - cell layout
 -(void)layoutSubviewsWithAttributes:(NSMutableArray *)theAttributes
 {
     for(int i = 0; i < theAttributes.count; i++){
@@ -104,8 +105,9 @@
                 cell.nameLabel.transform = CGAffineTransformIdentity;
 //                cell.subtitleLabel.transform = CGAffineTransformIdentity;
             }
+      }
 }
-}
+
 #pragma mark - cell setting
 //세션 갯수
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

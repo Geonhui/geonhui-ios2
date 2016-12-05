@@ -7,6 +7,7 @@
 //
 
 #import "CollectionLayout.h"
+
 @interface CollectionLayout ()
 
 @property (nonatomic, weak) id <CollectionLayout> delegate;

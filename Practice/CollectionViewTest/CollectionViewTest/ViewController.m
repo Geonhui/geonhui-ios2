@@ -66,7 +66,7 @@ UINavigationControllerDelegate>
 //셀 셋팅
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell *cell = [self.mainview dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    UICollectionViewCell *cell = [self.mainview dequeudeReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
     NSDictionary *dic = [self.photoData objectAtIndex:indexPath.row];
     

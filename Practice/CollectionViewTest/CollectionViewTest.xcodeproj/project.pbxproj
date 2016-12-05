@@ -13,7 +13,6 @@
 		BB29EC431DEC152E0082C187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB29EC421DEC152E0082C187 /* Assets.xcassets */; };
 		BB29EC461DEC152E0082C187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB29EC441DEC152E0082C187 /* LaunchScreen.storyboard */; };
 		BB5B9A471DEDCA2900B90FB9 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5B9A461DEDCA2900B90FB9 /* DataCenter.m */; };
-		BBC49FB51DEC5E2C00EA5AA6 /* emu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FA81DEC5E2C00EA5AA6 /* emu.jpg */; };
 		BBC49FB61DEC5E2C00EA5AA6 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FA91DEC5E2C00EA5AA6 /* giraffe.jpg */; };
 		BBC49FB71DEC5E2C00EA5AA6 /* greater_rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FAA1DEC5E2C00EA5AA6 /* greater_rhea.jpg */; };
 		BBC49FB81DEC5E2C00EA5AA6 /* guinea_pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC49FAB1DEC5E2C00EA5AA6 /* guinea_pig.jpg */; };
@@ -42,7 +41,6 @@
 		BB29EC471DEC152E0082C187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5B9A451DEDCA2900B90FB9 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
 		BB5B9A461DEDCA2900B90FB9 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
-		BBC49FA81DEC5E2C00EA5AA6 /* emu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emu.jpg; sourceTree = SOURCE_ROOT; };
 		BBC49FA91DEC5E2C00EA5AA6 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = SOURCE_ROOT; };
 		BBC49FAA1DEC5E2C00EA5AA6 /* greater_rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greater_rhea.jpg; sourceTree = SOURCE_ROOT; };
 		BBC49FAB1DEC5E2C00EA5AA6 /* guinea_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guinea_pig.jpg; sourceTree = SOURCE_ROOT; };
@@ -119,7 +117,6 @@
 		BBC49FA71DEC5DBA00EA5AA6 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				BBC49FA81DEC5E2C00EA5AA6 /* emu.jpg */,
 				BBC49FA91DEC5E2C00EA5AA6 /* giraffe.jpg */,
 				BBC49FAA1DEC5E2C00EA5AA6 /* greater_rhea.jpg */,
 				BBC49FAB1DEC5E2C00EA5AA6 /* guinea_pig.jpg */,
@@ -202,7 +199,6 @@
 				BBC49FB61DEC5E2C00EA5AA6 /* giraffe.jpg in Resources */,
 				BBC49FC01DEC5E2C00EA5AA6 /* panda.jpg in Resources */,
 				BB29EC461DEC152E0082C187 /* LaunchScreen.storyboard in Resources */,
-				BBC49FB51DEC5E2C00EA5AA6 /* emu.jpg in Resources */,
 				BBC49FBB1DEC5E2C00EA5AA6 /* koala.jpg in Resources */,
 				BBC49FBD1DEC5E2C00EA5AA6 /* llama.jpg in Resources */,
 				BBC49FC81DED592700EA5AA6 /* Main.storyboard in Resources */,
