@@ -106,20 +106,19 @@
 * [프로그래밍 패러다임]  , [객체지향 프로그래밍] , [객체지향 4대특징]
 
 ### IOS
-* [ios developer] - 개발자 홈페이지
 * [기기 테스트] - 앱 기기 테스트
 * [코딩 네이밍] - 네이밍 방법
 * [ios app icon] - 앱 아이콘
 * [형식지정자] - 형식지정자 모음
 * [퀵헬프] - mark up
 * [휴먼인터페이스 가이드라인] - ios human interface
+* [단축키 모음] - x code
 
 ### 기타
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 * [프로토타이핑] - Oven tool
 
-   [ios developer]: <https://developer.apple.com/>
    [기기 테스트]: <http://lab.anybuild.co.kr/page/basic_app2>
    [ios app icon]: <http://icon.angrymarmot.org/index.html#61244f3c69224441a3b3>
    [Key Value Observing]: <https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html>
@@ -151,3 +150,5 @@
    [형식지정자]: <http://alvinalexander.com/programming/printf-format-cheat-sheet>
    [하버드 구조]: <https://goo.gl/oA9r6r>
    [폰노이만 구조]: <https://goo.gl/k80z38>
+   [단축키 모음]: <http://kyejusung.com/>
+   
