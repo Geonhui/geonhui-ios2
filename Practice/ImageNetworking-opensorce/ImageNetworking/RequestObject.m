@@ -71,6 +71,7 @@ static NSString *JSONSuccessValue = @"success";
     return [NSURL URLWithString:urlString];
 }
 
+//사진요청
 + (void)requestImageList {
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
@@ -111,13 +112,8 @@ static NSString *JSONSuccessValue = @"success";
             [[NSNotificationCenter defaultCenter] postNotificationName:notificationName
                                                                 object:nil];
         });
-
-        
-        
-        
     }];
     [dataTask resume];
-    
 }
 
 + (void)requestUploadImage:(UIImage *)image title:(NSString *)title originImageId:(NSString *)imageId {
