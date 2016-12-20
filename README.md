@@ -106,7 +106,6 @@
 * [프로그래밍 패러다임]  , [객체지향 프로그래밍] , [객체지향 4대특징]
 
 ### IOS
-* [ios developer] - 개발자 홈페이지
 * [기기 테스트] - 앱 기기 테스트
 * [코딩 네이밍] - 네이밍 방법
 * [ios app icon] - 앱 아이콘
@@ -152,4 +151,4 @@
    [하버드 구조]: <https://goo.gl/oA9r6r>
    [폰노이만 구조]: <https://goo.gl/k80z38>
    [단축키 모음]: <http://kyejusung.com/>
-   [ios developer]: <https://developer.apple.com/>
+   
