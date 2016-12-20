@@ -114,13 +114,13 @@
 * [퀵헬프] - mark up
 * [휴먼인터페이스 가이드라인] - ios human interface
 * [단축키 모음] - x code
+
 ### 기타
 * [Ios2기 커리큘럼] - 일정
 * [맛집] - 근처맛집
 * [프로토타이핑] - Oven tool
 
-   [단축키 모음]: <http://kyejusung.com/2015/12/xcode-tip-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C/>
-  [ios developer]: <https://developer.apple.com/>
+   [단축키 모음]: <http://kyejusung.com/>
    [ios developer]: <https://developer.apple.com/>
    [기기 테스트]: <http://lab.anybuild.co.kr/page/basic_app2>
    [ios app icon]: <http://icon.angrymarmot.org/index.html#61244f3c69224441a3b3>
