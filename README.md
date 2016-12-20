@@ -120,10 +120,6 @@
 * [맛집] - 근처맛집
 * [프로토타이핑] - Oven tool
 
-
-
-   [단축키 모음]: <http://kyejusung.com/>
-   [ios developer]: <https://developer.apple.com/>
    [기기 테스트]: <http://lab.anybuild.co.kr/page/basic_app2>
    [ios app icon]: <http://icon.angrymarmot.org/index.html#61244f3c69224441a3b3>
    [Key Value Observing]: <https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html>
@@ -155,3 +151,5 @@
    [형식지정자]: <http://alvinalexander.com/programming/printf-format-cheat-sheet>
    [하버드 구조]: <https://goo.gl/oA9r6r>
    [폰노이만 구조]: <https://goo.gl/k80z38>
+   [단축키 모음]: <http://kyejusung.com/>
+   [ios developer]: <https://developer.apple.com/>
