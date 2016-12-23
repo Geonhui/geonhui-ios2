@@ -10,4 +10,14 @@
 
 @interface Practice1 : NSObject
 
+//분수 구하기
+//분자
+@property (nonatomic) NSInteger numerator;
+//분모
+@property (nonatomic) NSInteger denominator;
+
+- (void)print;
+- (void)setNumerator:(NSInteger)n;
+- (void)setDenominator:(NSInteger)d;
+
 @end

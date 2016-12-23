@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Practice1.h"
 
 int main(int argc, const char * argv[]) {
 
@@ -43,4 +44,14 @@ int main(int argc, const char * argv[]) {
     NSLog(@"=========================");
     NSLog(@"answer : %ld, result : %ld", answer, result);
     NSLog(@"the result value : %ld", result + 5);
+    
+    //분수구하기
+    Practice1 *test = [[Practice1 alloc] init];
+    [test setNumerator:12];
+    [test setDenominator:4];
+    NSLog(@"=========================");
+    NSLog(@"the value of fraction is :");
+    [test print];
+    
+    
 }

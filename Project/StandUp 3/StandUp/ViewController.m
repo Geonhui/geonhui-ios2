@@ -84,6 +84,8 @@
     //버튼선택 mutablearray생성
     self.selectedBtnList = [[NSMutableArray alloc] init];
     
+    
+    
 }
 
 #pragma mark - button action

@@ -9,11 +9,26 @@
 #import "Practice1.h"
 
 @implementation Practice1
+{
+    //인스턴스 변수
+    NSInteger no;
+    NSInteger de;
+}
 
+- (void)print;
+{
+    NSLog(@"value : %ld/%ld", self.numerator, self.denominator);
+}
 
+- (void)setNumerator:(NSInteger)n
+{
+    _numerator = n;
+}
 
-
-
+- (void)setDenominator:(NSInteger)d
+{
+    _denominator = d;
+}
 
 
 
