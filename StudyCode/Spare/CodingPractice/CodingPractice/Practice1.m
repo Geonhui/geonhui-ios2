@@ -22,14 +22,22 @@
 
 - (void)setNumerator:(NSInteger)n
 {
-    _numerator = n;
+    no = n;
 }
 
 - (void)setDenominator:(NSInteger)d
 {
-    _denominator = d;
+    de = d;
 }
 
+- (NSInteger)numerator
+{
+    return no;
+}
 
+- (NSInteger)denominator
+{
+    return de;
+}
 
 @end

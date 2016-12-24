@@ -20,4 +20,7 @@
 - (void)setNumerator:(NSInteger)n;
 - (void)setDenominator:(NSInteger)d;
 
+- (NSInteger)numerator;
+- (NSInteger)denominator;
+
 @end

@@ -84,7 +84,7 @@
     //버튼선택 mutablearray생성
     self.selectedBtnList = [[NSMutableArray alloc] init];
     
-    
+    //메서드
     
 }
 
